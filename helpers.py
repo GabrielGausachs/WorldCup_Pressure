@@ -3,6 +3,11 @@ import json
 import bz2
 import pandas as pd
 
+def load_events_from_json(file_path):
+    with open(file_path, 'r') as f:
+        data = json.load(f)
+    return pd.json_normalize(data)
+
 def normalize_players(players):
     if not isinstance(players, list):
         return None
