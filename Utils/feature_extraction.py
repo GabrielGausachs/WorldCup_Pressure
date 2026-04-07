@@ -22,6 +22,9 @@ def get_passes(event_df, tracking_df):
     # only keep the rows in passes where the possessionEventId is in the tracking_passes possession_event_id
     passes = passes[passes['possessionEventId'].isin(tracking_passes['possession_event_id'])]
 
+    # if possessionEvents.passOutcomeType is "C", then is_success is True, otherwise False
+    passes['is_success'] = passes['possessionEvents.passOutcomeType'].apply(lambda x: True if x == "C" else False)
+
     return passes, tracking_passes
 
 
@@ -40,25 +43,22 @@ def pressure_on_receiver(passes_df, tracking_passes_df, game):
 
         # Get the start frame of the possession event for this pass
         possession_start_frame = row.get("possession_start_frame")
-        game_id = row.get("game_id")
+        game_id = row.get("gameRefId")
         
         # Get the receiver's name from the event data using the possession_event_id
         possession_event_id = row["possession_event_id"]
         if isinstance(possession_event_id, float):
-            target_player_name = passes_df[(passes_df['possessionEventId'] == possession_event_id) & passes_df['gameId'] == game_id]['possessionEvents.targetPlayerName'].iloc[0]
-            home_team = passes_df[(passes_df['possessionEventId'] == possession_event_id) & passes_df['gameId'] == game_id]['gameEvents.homeTeam'].iloc[0]
-            if not isinstance(target_player_name, str):
-                print(f"Target player name is not a string for possession event ID: {possession_event_id}")
-            
+            target_player_id = passes_df[passes_df['possessionEventId'] == possession_event_id]['possessionEvents.playerId'].iloc[0]
+            home_team = passes_df[passes_df['possessionEventId'] == possession_event_id]['gameEvents.homeTeam'].iloc[0]
             # Find the player shirt_num
             if home_team:
-                player_info = game.home_players[game.home_players["full_name"] == target_player_name]
+                player_info = game.home_players[int(game.home_players["id"]) == int(target_player_id)]
                 if player_info.empty:
-                    print(f"Player {target_player_name} not found in home team for possession event ID: {possession_event_id}")
+                    print(f"Player {target_player_id} not found in home team for possession event ID: {possession_event_id}")
             else:
-                player_info = game.away_players[game.away_players["full_name"] == target_player_name]
+                player_info = game.away_players[int(game.away_players["id"]) == int(target_player_id)]
                 if player_info.empty:
-                    print(f"Player {target_player_name} not found in away team for possession event ID: {possession_event_id}")
+                    print(f"Player {target_player_id} not found in away team for possession event ID: {possession_event_id}")
             player_id = player_info["id"].iloc[0]
 
             # Get the pressure on the target player at the start frame
@@ -66,7 +66,7 @@ def pressure_on_receiver(passes_df, tracking_passes_df, game):
             pressure = game.tracking_data.get_pressure_on_player(index=idx, column_id=game.player_id_to_column_id(player_id), pitch_size=game.pitch_dimensions)
 
             # Add pressure in the passes_df for the corresponding possession_event_id
-            passes_df.loc[(passes_df['possessionEventId'] == possession_event_id) & (passes_df['gameId'] == game_id), 'pressure_on_receiver'] = pressure / 100  # Convert to percentage
+            passes_df.loc[(passes_df['possessionEventId'] == possession_event_id), 'pressure_on_receiver'] = pressure / 100  # Convert to percentage
     return passes_df
 
 
@@ -89,7 +89,7 @@ def retain_lose_after_pass(passes_df, tracking_passes_df, tracking_df):
         # get the row in the tracking_passes_df with the same possession_event_id as the current row in successfull_passes
         possession_event_id = row['possessionEventId']
         game_id = row['gameId']
-        tracking_succ_pass = tracking_passes_df[(tracking_passes_df['possession_event_id'] == possession_event_id) & (tracking_passes_df['gameRefId'] == game_id)].iloc[0]
+        tracking_succ_pass = tracking_passes_df[tracking_passes_df['possession_event_id'] == possession_event_id].iloc[0]
         if not tracking_succ_pass.empty:
             possession_start_frame = tracking_succ_pass.get("possession_start_frame")
 
@@ -151,7 +151,7 @@ def what_leads(passes_df, tracking_passes_df, tracking_df, game):
         # get the row in the tracking_passes_df with the same possession_event_id as the current row in successfull_retained_passes
         possession_event_id = row['possessionEventId']
         game_id = row['gameId']
-        tracking_succ_pass = tracking_passes_df[(tracking_passes_df['possession_event_id'] == possession_event_id) & (tracking_passes_df['gameRefId'] == game_id)].iloc[0]
+        tracking_succ_pass = tracking_passes_df[tracking_passes_df['possession_event_id'] == possession_event_id].iloc[0]
         if not tracking_succ_pass.empty:
             possession_start_frame = tracking_succ_pass.get("possession_start_frame")
 
