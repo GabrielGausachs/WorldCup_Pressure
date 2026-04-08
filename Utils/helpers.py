@@ -16,6 +16,45 @@ def normalize_players(players):
         for p in players
     ]))
 
+def clip_until_opposite_centroids(tracking_df):
+    """
+    Skip frames at the start of each period until the home and away team centroids
+    have opposite signs.
+    
+    Returns a new DataFrame.
+    """
+    masks = []
+
+    for period in tracking_df['period'].unique():
+        period_df = tracking_df[tracking_df['period'] == period].sort_values('frameNum')
+        
+        clip_index = 0  # Default: start from first frame
+        for i, row in enumerate(period_df.itertuples()):
+            home_players = getattr(row, 'homePlayersSmoothed')
+            away_players = getattr(row, 'awayPlayersSmoothed')
+
+            home_xs = [p['x'] for p in home_players if isinstance(p, dict) and p.get('x') is not None]
+            away_xs = [p['x'] for p in away_players if isinstance(p, dict) and p.get('x') is not None]
+
+            if not home_xs or not away_xs:
+                continue
+
+            home_centroid = np.mean(home_xs)
+            away_centroid = np.mean(away_xs)
+
+            # Stop skipping once centroids have opposite signs
+            if home_centroid * away_centroid < 0:
+                clip_index = i
+                break
+
+        # Keep only frames from clip_index onwards
+        safe_frames = period_df.iloc[clip_index:]
+        masks.append(safe_frames)
+
+    # Combine all periods
+    clipped_df = pd.concat(masks, ignore_index=True)
+    return clipped_df
+
 def clean_tracking_data(base_path):
     tracking_path = os.path.join(base_path, "trackingdata")
     tracking_files = sorted([f for f in os.listdir(tracking_path) if f.endswith('.jsonl.bz2')])
@@ -110,6 +149,7 @@ def clean_tracking_data(base_path):
             return v
         
         tracking_df_clean["ballsSmoothed"] = tracking_df_clean["ballsSmoothed"].apply(clip_ball_smoothed)
+        tracking_df_clean = clip_until_opposite_centroids(tracking_df_clean)
 
         # --- SAVE BACK ---
         with bz2.open(output_file, "wt") as f:
