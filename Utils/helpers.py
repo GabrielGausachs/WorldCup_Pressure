@@ -91,6 +91,25 @@ def clean_tracking_data(base_path):
             tracking_df_clean = tracking_df_clean.drop(
                 columns=["homePlayers_norm", "awayPlayers_norm"]
             )
+        
+        # clip x and z
+        def clip_ball_smoothed(v):
+            """
+            Clip x and z values in ballsSmoothed:
+            - x: enforce abs(x) <= 62.4
+            - z: enforce z >= -4.9
+            y is left untouched
+            """
+            if isinstance(v, dict):
+                # Clip x
+                if "x" in v and v["x"] is not None:
+                    v["x"] = max(-62.4, min(62.4, v["x"]))
+                # Clip z
+                if "z" in v and v["z"] is not None:
+                    v["z"] = max(-4.9, v["z"])
+            return v
+        
+        tracking_df_clean["ballsSmoothed"] = tracking_df_clean["ballsSmoothed"].apply(clip_ball_smoothed)
 
         # --- SAVE BACK ---
         with bz2.open(output_file, "wt") as f:
