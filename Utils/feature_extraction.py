@@ -24,6 +24,8 @@ def get_passes(event_df, tracking_df):
 
     # if possessionEvents.passOutcomeType is "C", then is_success is True, otherwise False
     passes['is_success'] = passes['possessionEvents.passOutcomeType'].apply(lambda x: True if x == "C" else False)
+    
+    print(f"Number of successful passes: {passes['is_success'].sum()}")
 
     return passes, tracking_passes
 
@@ -48,15 +50,15 @@ def pressure_on_receiver(passes_df, tracking_passes_df, game):
         # Get the receiver's name from the event data using the possession_event_id
         possession_event_id = row["possession_event_id"]
         if isinstance(possession_event_id, float):
-            target_player_id = passes_df[passes_df['possessionEventId'] == possession_event_id]['possessionEvents.playerId'].iloc[0]
+            target_player_id = passes_df[passes_df['possessionEventId'] == possession_event_id]['possessionEvents.targetPlayerId'].iloc[0]
             home_team = passes_df[passes_df['possessionEventId'] == possession_event_id]['gameEvents.homeTeam'].iloc[0]
             # Find the player shirt_num
             if home_team:
-                player_info = game.home_players[int(game.home_players["id"]) == int(target_player_id)]
+                player_info = game.home_players[game.home_players["id"].astype(int) == int(target_player_id)]
                 if player_info.empty:
                     print(f"Player {target_player_id} not found in home team for possession event ID: {possession_event_id}")
             else:
-                player_info = game.away_players[int(game.away_players["id"]) == int(target_player_id)]
+                player_info = game.away_players[game.away_players["id"].astype(int) == int(target_player_id)]
                 if player_info.empty:
                     print(f"Player {target_player_id} not found in away team for possession event ID: {possession_event_id}")
             player_id = player_info["id"].iloc[0]
@@ -67,6 +69,9 @@ def pressure_on_receiver(passes_df, tracking_passes_df, game):
 
             # Add pressure in the passes_df for the corresponding possession_event_id
             passes_df.loc[(passes_df['possessionEventId'] == possession_event_id), 'pressure_on_receiver'] = pressure / 100  # Convert to percentage
+    
+    # print number of rows in passes_df where pressure_on_receiver is still NaN
+    print(f"Number of rows in passes_df where pressure_on_receiver is NaN: {passes_df['pressure_on_receiver'].isna().sum()}")
     return passes_df
 
 
