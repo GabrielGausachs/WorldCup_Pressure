@@ -1,0 +1,1577 @@
+2026-04-08 22:14:37,789 - root - INFO -> Logger initialized in filename 2026-04-08-22-14-37
+2026-04-08 22:14:37,789 - root - INFO -> --------------------------------------------------
+2026-04-08 22:14:37,789 - root - INFO -> 
+Processing 10502.jsonl.bz2...
+2026-04-08 22:15:37,241 - root - INFO -> Duplicate rows: 908
+2026-04-08 22:15:37,241 - root - INFO -> Duplicate ratio: 0.0051
+2026-04-08 22:15:48,051 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:19:33,169 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10502_clean.jsonl.bz2
+2026-04-08 22:19:33,169 - root - INFO -> --------------------------------------------------
+2026-04-08 22:19:33,169 - root - INFO -> 
+Processing 10503.jsonl.bz2...
+2026-04-08 22:20:49,051 - root - INFO -> Duplicate rows: 884
+2026-04-08 22:20:49,071 - root - INFO -> Duplicate ratio: 0.0049
+2026-04-08 22:20:57,512 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:24:08,854 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10503_clean.jsonl.bz2
+2026-04-08 22:24:08,854 - root - INFO -> --------------------------------------------------
+2026-04-08 22:24:08,855 - root - INFO -> 
+Processing 10504.jsonl.bz2...
+2026-04-08 22:24:42,386 - root - INFO -> Duplicate rows: 646
+2026-04-08 22:24:42,386 - root - INFO -> Duplicate ratio: 0.0035
+2026-04-08 22:24:50,112 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:26:52,309 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10504_clean.jsonl.bz2
+2026-04-08 22:26:52,309 - root - INFO -> --------------------------------------------------
+2026-04-08 22:26:52,310 - root - INFO -> 
+Processing 10505.jsonl.bz2...
+2026-04-08 22:27:21,001 - root - INFO -> Duplicate rows: 658
+2026-04-08 22:27:21,001 - root - INFO -> Duplicate ratio: 0.0037
+2026-04-08 22:27:25,766 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:29:26,854 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10505_clean.jsonl.bz2
+2026-04-08 22:29:26,854 - root - INFO -> --------------------------------------------------
+2026-04-08 22:29:26,854 - root - INFO -> 
+Processing 10506.jsonl.bz2...
+2026-04-08 22:30:21,181 - root - INFO -> Duplicate rows: 1332
+2026-04-08 22:30:21,181 - root - INFO -> Duplicate ratio: 0.0057
+2026-04-08 22:30:30,770 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:33:19,023 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10506_clean.jsonl.bz2
+2026-04-08 22:33:19,024 - root - INFO -> --------------------------------------------------
+2026-04-08 22:33:19,024 - root - INFO -> 
+Processing 10507.jsonl.bz2...
+2026-04-08 22:33:53,581 - root - INFO -> Duplicate rows: 474
+2026-04-08 22:33:53,581 - root - INFO -> Duplicate ratio: 0.0027
+2026-04-08 22:34:01,251 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:36:15,375 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10507_clean.jsonl.bz2
+2026-04-08 22:36:15,375 - root - INFO -> --------------------------------------------------
+2026-04-08 22:36:15,375 - root - INFO -> 
+Processing 10508.jsonl.bz2...
+2026-04-08 22:37:04,212 - root - INFO -> Duplicate rows: 854
+2026-04-08 22:37:04,212 - root - INFO -> Duplicate ratio: 0.0036
+2026-04-08 22:37:11,028 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:39:56,907 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10508_clean.jsonl.bz2
+2026-04-08 22:39:56,908 - root - INFO -> --------------------------------------------------
+2026-04-08 22:39:56,908 - root - INFO -> 
+Processing 10509.jsonl.bz2...
+2026-04-08 22:40:35,489 - root - INFO -> Duplicate rows: 436
+2026-04-08 22:40:35,489 - root - INFO -> Duplicate ratio: 0.0025
+2026-04-08 22:40:43,450 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:42:50,635 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10509_clean.jsonl.bz2
+2026-04-08 22:42:50,636 - root - INFO -> --------------------------------------------------
+2026-04-08 22:42:50,636 - root - INFO -> 
+Processing 10510.jsonl.bz2...
+2026-04-08 22:43:27,704 - root - INFO -> Duplicate rows: 440
+2026-04-08 22:43:27,704 - root - INFO -> Duplicate ratio: 0.0026
+2026-04-08 22:43:32,705 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:45:42,295 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10510_clean.jsonl.bz2
+2026-04-08 22:45:42,295 - root - INFO -> --------------------------------------------------
+2026-04-08 22:45:42,295 - root - INFO -> 
+Processing 10511.jsonl.bz2...
+2026-04-08 22:46:18,854 - root - INFO -> Duplicate rows: 678
+2026-04-08 22:46:18,854 - root - INFO -> Duplicate ratio: 0.0035
+2026-04-08 22:46:25,180 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:49:14,014 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10511_clean.jsonl.bz2
+2026-04-08 22:49:14,014 - root - INFO -> --------------------------------------------------
+2026-04-08 22:49:14,015 - root - INFO -> 
+Processing 10512.jsonl.bz2...
+2026-04-08 22:49:59,582 - root - INFO -> Duplicate rows: 690
+2026-04-08 22:49:59,582 - root - INFO -> Duplicate ratio: 0.0038
+2026-04-08 22:50:08,404 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:53:04,340 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10512_clean.jsonl.bz2
+2026-04-08 22:53:04,340 - root - INFO -> --------------------------------------------------
+2026-04-08 22:53:04,340 - root - INFO -> 
+Processing 10513.jsonl.bz2...
+2026-04-08 22:53:36,423 - root - INFO -> Duplicate rows: 906
+2026-04-08 22:53:36,423 - root - INFO -> Duplicate ratio: 0.0048
+2026-04-08 22:53:43,006 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:56:40,977 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10513_clean.jsonl.bz2
+2026-04-08 22:56:40,977 - root - INFO -> --------------------------------------------------
+2026-04-08 22:56:40,977 - root - INFO -> 
+Processing 10514.jsonl.bz2...
+2026-04-08 22:57:15,243 - root - INFO -> Duplicate rows: 410
+2026-04-08 22:57:15,243 - root - INFO -> Duplicate ratio: 0.0023
+2026-04-08 22:57:23,032 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 22:59:47,453 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10514_clean.jsonl.bz2
+2026-04-08 22:59:47,453 - root - INFO -> --------------------------------------------------
+2026-04-08 22:59:47,453 - root - INFO -> 
+Processing 10515.jsonl.bz2...
+2026-04-08 23:00:33,445 - root - INFO -> Duplicate rows: 558
+2026-04-08 23:00:33,445 - root - INFO -> Duplicate ratio: 0.0031
+2026-04-08 23:00:42,282 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:02:56,899 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10515_clean.jsonl.bz2
+2026-04-08 23:02:56,899 - root - INFO -> --------------------------------------------------
+2026-04-08 23:02:56,899 - root - INFO -> 
+Processing 10516.jsonl.bz2...
+2026-04-08 23:03:40,996 - root - INFO -> Duplicate rows: 556
+2026-04-08 23:03:40,996 - root - INFO -> Duplicate ratio: 0.0031
+2026-04-08 23:03:47,150 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:05:55,826 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10516_clean.jsonl.bz2
+2026-04-08 23:05:55,826 - root - INFO -> --------------------------------------------------
+2026-04-08 23:05:55,826 - root - INFO -> 
+Processing 10517.jsonl.bz2...
+2026-04-08 23:06:44,097 - root - INFO -> Duplicate rows: 1010
+2026-04-08 23:06:44,098 - root - INFO -> Duplicate ratio: 0.0040
+2026-04-08 23:06:52,440 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:10:08,022 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\10517_clean.jsonl.bz2
+2026-04-08 23:10:08,022 - root - INFO -> --------------------------------------------------
+2026-04-08 23:10:08,022 - root - INFO -> 
+Processing 3812.jsonl.bz2...
+2026-04-08 23:10:57,846 - root - INFO -> Duplicate rows: 950
+2026-04-08 23:10:57,846 - root - INFO -> Duplicate ratio: 0.0051
+2026-04-08 23:11:04,373 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:13:48,081 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3812_clean.jsonl.bz2
+2026-04-08 23:13:48,081 - root - INFO -> --------------------------------------------------
+2026-04-08 23:13:48,081 - root - INFO -> 
+Processing 3813.jsonl.bz2...
+2026-04-08 23:14:39,231 - root - INFO -> Duplicate rows: 598
+2026-04-08 23:14:39,232 - root - INFO -> Duplicate ratio: 0.0028
+2026-04-08 23:14:52,084 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:17:49,820 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3813_clean.jsonl.bz2
+2026-04-08 23:17:49,820 - root - INFO -> --------------------------------------------------
+2026-04-08 23:17:49,820 - root - INFO -> 
+Processing 3814.jsonl.bz2...
+2026-04-08 23:18:21,329 - root - INFO -> Duplicate rows: 636
+2026-04-08 23:18:21,329 - root - INFO -> Duplicate ratio: 0.0035
+2026-04-08 23:18:27,320 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:20:55,772 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3814_clean.jsonl.bz2
+2026-04-08 23:20:55,773 - root - INFO -> --------------------------------------------------
+2026-04-08 23:20:55,773 - root - INFO -> 
+Processing 3815.jsonl.bz2...
+2026-04-08 23:21:43,893 - root - INFO -> Duplicate rows: 114
+2026-04-08 23:21:43,894 - root - INFO -> Duplicate ratio: 0.0006
+2026-04-08 23:21:53,179 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:24:28,343 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3815_clean.jsonl.bz2
+2026-04-08 23:24:28,344 - root - INFO -> --------------------------------------------------
+2026-04-08 23:24:28,344 - root - INFO -> 
+Processing 3816.jsonl.bz2...
+2026-04-08 23:25:14,078 - root - INFO -> Duplicate rows: 934
+2026-04-08 23:25:14,079 - root - INFO -> Duplicate ratio: 0.0047
+2026-04-08 23:25:23,400 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:28:09,641 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3816_clean.jsonl.bz2
+2026-04-08 23:28:09,641 - root - INFO -> --------------------------------------------------
+2026-04-08 23:28:09,642 - root - INFO -> 
+Processing 3817.jsonl.bz2...
+2026-04-08 23:28:54,017 - root - INFO -> Duplicate rows: 108
+2026-04-08 23:28:54,017 - root - INFO -> Duplicate ratio: 0.0006
+2026-04-08 23:29:00,610 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:31:36,011 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3817_clean.jsonl.bz2
+2026-04-08 23:31:36,015 - root - INFO -> --------------------------------------------------
+2026-04-08 23:31:36,015 - root - INFO -> 
+Processing 3818.jsonl.bz2...
+2026-04-08 23:32:23,201 - root - INFO -> Duplicate rows: 774
+2026-04-08 23:32:23,201 - root - INFO -> Duplicate ratio: 0.0043
+2026-04-08 23:32:29,118 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:34:49,423 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3818_clean.jsonl.bz2
+2026-04-08 23:34:49,423 - root - INFO -> --------------------------------------------------
+2026-04-08 23:34:49,423 - root - INFO -> 
+Processing 3819.jsonl.bz2...
+2026-04-08 23:35:38,181 - root - INFO -> Duplicate rows: 468
+2026-04-08 23:35:38,181 - root - INFO -> Duplicate ratio: 0.0025
+2026-04-08 23:35:44,128 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:38:07,941 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3819_clean.jsonl.bz2
+2026-04-08 23:38:07,941 - root - INFO -> --------------------------------------------------
+2026-04-08 23:38:07,941 - root - INFO -> 
+Processing 3820.jsonl.bz2...
+2026-04-08 23:38:44,741 - root - INFO -> Duplicate rows: 722
+2026-04-08 23:38:44,741 - root - INFO -> Duplicate ratio: 0.0041
+2026-04-08 23:38:50,373 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:41:01,303 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3820_clean.jsonl.bz2
+2026-04-08 23:41:01,303 - root - INFO -> --------------------------------------------------
+2026-04-08 23:41:01,303 - root - INFO -> 
+Processing 3821.jsonl.bz2...
+2026-04-08 23:41:32,488 - root - INFO -> Duplicate rows: 112
+2026-04-08 23:41:32,488 - root - INFO -> Duplicate ratio: 0.0006
+2026-04-08 23:41:38,234 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:44:10,849 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3821_clean.jsonl.bz2
+2026-04-08 23:44:10,849 - root - INFO -> --------------------------------------------------
+2026-04-08 23:44:10,849 - root - INFO -> 
+Processing 3822.jsonl.bz2...
+2026-04-08 23:44:59,431 - root - INFO -> Duplicate rows: 590
+2026-04-08 23:44:59,432 - root - INFO -> Duplicate ratio: 0.0032
+2026-04-08 23:45:11,411 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:48:43,194 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3822_clean.jsonl.bz2
+2026-04-08 23:48:43,194 - root - INFO -> --------------------------------------------------
+2026-04-08 23:48:43,195 - root - INFO -> 
+Processing 3823.jsonl.bz2...
+2026-04-08 23:49:31,324 - root - INFO -> Duplicate rows: 532
+2026-04-08 23:49:31,325 - root - INFO -> Duplicate ratio: 0.0029
+2026-04-08 23:49:40,195 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:53:58,530 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3823_clean.jsonl.bz2
+2026-04-08 23:53:58,530 - root - INFO -> --------------------------------------------------
+2026-04-08 23:53:58,530 - root - INFO -> 
+Processing 3824.jsonl.bz2...
+2026-04-08 23:55:00,873 - root - INFO -> Duplicate rows: 714
+2026-04-08 23:55:00,873 - root - INFO -> Duplicate ratio: 0.0040
+2026-04-08 23:55:12,962 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-08 23:59:40,176 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3824_clean.jsonl.bz2
+2026-04-08 23:59:40,176 - root - INFO -> --------------------------------------------------
+2026-04-08 23:59:40,176 - root - INFO -> 
+Processing 3825.jsonl.bz2...
+2026-04-09 00:00:32,382 - root - INFO -> Duplicate rows: 1074
+2026-04-09 00:00:32,383 - root - INFO -> Duplicate ratio: 0.0060
+2026-04-09 00:00:44,644 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:04:47,618 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3825_clean.jsonl.bz2
+2026-04-09 00:04:47,618 - root - INFO -> --------------------------------------------------
+2026-04-09 00:04:47,618 - root - INFO -> 
+Processing 3826.jsonl.bz2...
+2026-04-09 00:05:35,206 - root - INFO -> Duplicate rows: 730
+2026-04-09 00:05:35,206 - root - INFO -> Duplicate ratio: 0.0040
+2026-04-09 00:05:44,373 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:09:50,811 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3826_clean.jsonl.bz2
+2026-04-09 00:09:50,811 - root - INFO -> --------------------------------------------------
+2026-04-09 00:09:50,811 - root - INFO -> 
+Processing 3827.jsonl.bz2...
+2026-04-09 00:10:41,342 - root - INFO -> Duplicate rows: 676
+2026-04-09 00:10:41,342 - root - INFO -> Duplicate ratio: 0.0038
+2026-04-09 00:10:50,018 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:14:50,951 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3827_clean.jsonl.bz2
+2026-04-09 00:14:50,951 - root - INFO -> --------------------------------------------------
+2026-04-09 00:14:50,951 - root - INFO -> 
+Processing 3828.jsonl.bz2...
+2026-04-09 00:15:39,975 - root - INFO -> Duplicate rows: 1024
+2026-04-09 00:15:39,976 - root - INFO -> Duplicate ratio: 0.0053
+2026-04-09 00:15:49,456 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:19:58,243 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3828_clean.jsonl.bz2
+2026-04-09 00:19:58,243 - root - INFO -> --------------------------------------------------
+2026-04-09 00:19:58,243 - root - INFO -> 
+Processing 3829.jsonl.bz2...
+2026-04-09 00:20:49,438 - root - INFO -> Duplicate rows: 642
+2026-04-09 00:20:49,438 - root - INFO -> Duplicate ratio: 0.0035
+2026-04-09 00:20:58,609 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:24:49,058 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3829_clean.jsonl.bz2
+2026-04-09 00:24:49,058 - root - INFO -> --------------------------------------------------
+2026-04-09 00:24:49,058 - root - INFO -> 
+Processing 3830.jsonl.bz2...
+2026-04-09 00:25:43,002 - root - INFO -> Duplicate rows: 988
+2026-04-09 00:25:43,002 - root - INFO -> Duplicate ratio: 0.0055
+2026-04-09 00:25:51,956 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:29:37,544 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3830_clean.jsonl.bz2
+2026-04-09 00:29:37,544 - root - INFO -> --------------------------------------------------
+2026-04-09 00:29:37,544 - root - INFO -> 
+Processing 3831.jsonl.bz2...
+2026-04-09 00:30:26,171 - root - INFO -> Duplicate rows: 656
+2026-04-09 00:30:26,171 - root - INFO -> Duplicate ratio: 0.0038
+2026-04-09 00:30:36,756 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:34:07,495 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3831_clean.jsonl.bz2
+2026-04-09 00:34:07,495 - root - INFO -> --------------------------------------------------
+2026-04-09 00:34:07,495 - root - INFO -> 
+Processing 3832.jsonl.bz2...
+2026-04-09 00:34:59,102 - root - INFO -> Duplicate rows: 1208
+2026-04-09 00:34:59,102 - root - INFO -> Duplicate ratio: 0.0066
+2026-04-09 00:35:08,110 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:39:15,035 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3832_clean.jsonl.bz2
+2026-04-09 00:39:15,035 - root - INFO -> --------------------------------------------------
+2026-04-09 00:39:15,035 - root - INFO -> 
+Processing 3833.jsonl.bz2...
+2026-04-09 00:40:06,009 - root - INFO -> Duplicate rows: 703
+2026-04-09 00:40:06,009 - root - INFO -> Duplicate ratio: 0.0036
+2026-04-09 00:40:15,525 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:44:29,709 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3833_clean.jsonl.bz2
+2026-04-09 00:44:29,709 - root - INFO -> --------------------------------------------------
+2026-04-09 00:44:29,709 - root - INFO -> 
+Processing 3834.jsonl.bz2...
+2026-04-09 00:45:21,378 - root - INFO -> Duplicate rows: 728
+2026-04-09 00:45:21,378 - root - INFO -> Duplicate ratio: 0.0040
+2026-04-09 00:45:30,379 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:49:36,212 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3834_clean.jsonl.bz2
+2026-04-09 00:49:36,212 - root - INFO -> --------------------------------------------------
+2026-04-09 00:49:36,212 - root - INFO -> 
+Processing 3835.jsonl.bz2...
+2026-04-09 00:50:22,127 - root - INFO -> Duplicate rows: 852
+2026-04-09 00:50:22,127 - root - INFO -> Duplicate ratio: 0.0046
+2026-04-09 00:50:31,216 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:54:33,355 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3835_clean.jsonl.bz2
+2026-04-09 00:54:33,356 - root - INFO -> --------------------------------------------------
+2026-04-09 00:54:33,356 - root - INFO -> 
+Processing 3836.jsonl.bz2...
+2026-04-09 00:55:17,561 - root - INFO -> Duplicate rows: 586
+2026-04-09 00:55:17,561 - root - INFO -> Duplicate ratio: 0.0033
+2026-04-09 00:55:26,280 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 00:57:48,314 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3836_clean.jsonl.bz2
+2026-04-09 00:57:48,316 - root - INFO -> --------------------------------------------------
+2026-04-09 00:57:48,316 - root - INFO -> 
+Processing 3837.jsonl.bz2...
+2026-04-09 00:58:13,883 - root - INFO -> Duplicate rows: 648
+2026-04-09 00:58:13,883 - root - INFO -> Duplicate ratio: 0.0036
+2026-04-09 00:58:19,074 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:00:10,207 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3837_clean.jsonl.bz2
+2026-04-09 01:00:10,207 - root - INFO -> --------------------------------------------------
+2026-04-09 01:00:10,207 - root - INFO -> 
+Processing 3838.jsonl.bz2...
+2026-04-09 01:00:38,383 - root - INFO -> Duplicate rows: 650
+2026-04-09 01:00:38,383 - root - INFO -> Duplicate ratio: 0.0036
+2026-04-09 01:00:45,077 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:02:46,592 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3838_clean.jsonl.bz2
+2026-04-09 01:02:46,592 - root - INFO -> --------------------------------------------------
+2026-04-09 01:02:46,592 - root - INFO -> 
+Processing 3839.jsonl.bz2...
+2026-04-09 01:03:16,289 - root - INFO -> Duplicate rows: 616
+2026-04-09 01:03:16,289 - root - INFO -> Duplicate ratio: 0.0035
+2026-04-09 01:03:21,374 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:05:26,670 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3839_clean.jsonl.bz2
+2026-04-09 01:05:26,670 - root - INFO -> --------------------------------------------------
+2026-04-09 01:05:26,670 - root - INFO -> 
+Processing 3840.jsonl.bz2...
+2026-04-09 01:05:52,089 - root - INFO -> Duplicate rows: 1056
+2026-04-09 01:05:52,089 - root - INFO -> Duplicate ratio: 0.0056
+2026-04-09 01:05:57,549 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:08:01,435 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3840_clean.jsonl.bz2
+2026-04-09 01:08:01,435 - root - INFO -> --------------------------------------------------
+2026-04-09 01:08:01,435 - root - INFO -> 
+Processing 3841.jsonl.bz2...
+2026-04-09 01:08:30,705 - root - INFO -> Duplicate rows: 908
+2026-04-09 01:08:30,705 - root - INFO -> Duplicate ratio: 0.0047
+2026-04-09 01:08:36,262 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:10:34,275 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3841_clean.jsonl.bz2
+2026-04-09 01:10:34,275 - root - INFO -> --------------------------------------------------
+2026-04-09 01:10:34,275 - root - INFO -> 
+Processing 3842.jsonl.bz2...
+2026-04-09 01:11:00,965 - root - INFO -> Duplicate rows: 536
+2026-04-09 01:11:00,965 - root - INFO -> Duplicate ratio: 0.0031
+2026-04-09 01:11:05,903 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:13:05,989 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3842_clean.jsonl.bz2
+2026-04-09 01:13:05,989 - root - INFO -> --------------------------------------------------
+2026-04-09 01:13:05,989 - root - INFO -> 
+Processing 3843.jsonl.bz2...
+2026-04-09 01:13:31,552 - root - INFO -> Duplicate rows: 716
+2026-04-09 01:13:31,552 - root - INFO -> Duplicate ratio: 0.0038
+2026-04-09 01:13:37,029 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:15:34,556 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3843_clean.jsonl.bz2
+2026-04-09 01:15:34,556 - root - INFO -> --------------------------------------------------
+2026-04-09 01:15:34,556 - root - INFO -> 
+Processing 3844.jsonl.bz2...
+2026-04-09 01:16:01,479 - root - INFO -> Duplicate rows: 992
+2026-04-09 01:16:01,479 - root - INFO -> Duplicate ratio: 0.0053
+2026-04-09 01:16:07,257 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:18:05,276 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3844_clean.jsonl.bz2
+2026-04-09 01:18:05,292 - root - INFO -> --------------------------------------------------
+2026-04-09 01:18:05,292 - root - INFO -> 
+Processing 3845.jsonl.bz2...
+2026-04-09 01:18:30,040 - root - INFO -> Duplicate rows: 500
+2026-04-09 01:18:30,042 - root - INFO -> Duplicate ratio: 0.0028
+2026-04-09 01:18:35,244 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:20:27,379 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3845_clean.jsonl.bz2
+2026-04-09 01:20:27,379 - root - INFO -> --------------------------------------------------
+2026-04-09 01:20:27,379 - root - INFO -> 
+Processing 3846.jsonl.bz2...
+2026-04-09 01:20:52,784 - root - INFO -> Duplicate rows: 674
+2026-04-09 01:20:52,784 - root - INFO -> Duplicate ratio: 0.0038
+2026-04-09 01:20:57,934 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:23:42,198 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3846_clean.jsonl.bz2
+2026-04-09 01:23:42,198 - root - INFO -> --------------------------------------------------
+2026-04-09 01:23:42,198 - root - INFO -> 
+Processing 3847.jsonl.bz2...
+2026-04-09 01:24:08,363 - root - INFO -> Duplicate rows: 944
+2026-04-09 01:24:08,363 - root - INFO -> Duplicate ratio: 0.0049
+2026-04-09 01:24:15,857 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:26:13,917 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3847_clean.jsonl.bz2
+2026-04-09 01:26:13,917 - root - INFO -> --------------------------------------------------
+2026-04-09 01:26:13,917 - root - INFO -> 
+Processing 3848.jsonl.bz2...
+2026-04-09 01:26:41,898 - root - INFO -> Duplicate rows: 1210
+2026-04-09 01:26:41,898 - root - INFO -> Duplicate ratio: 0.0068
+2026-04-09 01:26:48,477 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:28:45,431 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3848_clean.jsonl.bz2
+2026-04-09 01:28:45,431 - root - INFO -> --------------------------------------------------
+2026-04-09 01:28:45,431 - root - INFO -> 
+Processing 3849.jsonl.bz2...
+2026-04-09 01:29:14,676 - root - INFO -> Duplicate rows: 588
+2026-04-09 01:29:14,676 - root - INFO -> Duplicate ratio: 0.0031
+2026-04-09 01:29:20,907 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:31:18,472 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3849_clean.jsonl.bz2
+2026-04-09 01:31:18,472 - root - INFO -> --------------------------------------------------
+2026-04-09 01:31:18,472 - root - INFO -> 
+Processing 3850.jsonl.bz2...
+2026-04-09 01:31:46,976 - root - INFO -> Duplicate rows: 742
+2026-04-09 01:31:46,976 - root - INFO -> Duplicate ratio: 0.0041
+2026-04-09 01:31:52,610 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:34:03,687 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3850_clean.jsonl.bz2
+2026-04-09 01:34:03,687 - root - INFO -> --------------------------------------------------
+2026-04-09 01:34:03,687 - root - INFO -> 
+Processing 3851.jsonl.bz2...
+2026-04-09 01:34:33,006 - root - INFO -> Duplicate rows: 988
+2026-04-09 01:34:33,006 - root - INFO -> Duplicate ratio: 0.0053
+2026-04-09 01:34:38,244 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:36:36,323 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3851_clean.jsonl.bz2
+2026-04-09 01:36:36,324 - root - INFO -> --------------------------------------------------
+2026-04-09 01:36:36,324 - root - INFO -> 
+Processing 3852.jsonl.bz2...
+2026-04-09 01:37:05,538 - root - INFO -> Duplicate rows: 648
+2026-04-09 01:37:05,538 - root - INFO -> Duplicate ratio: 0.0037
+2026-04-09 01:37:11,959 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:39:02,515 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3852_clean.jsonl.bz2
+2026-04-09 01:39:02,515 - root - INFO -> --------------------------------------------------
+2026-04-09 01:39:02,515 - root - INFO -> 
+Processing 3853.jsonl.bz2...
+2026-04-09 01:39:26,532 - root - INFO -> Duplicate rows: 706
+2026-04-09 01:39:26,532 - root - INFO -> Duplicate ratio: 0.0040
+2026-04-09 01:39:33,374 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:41:24,219 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3853_clean.jsonl.bz2
+2026-04-09 01:41:24,219 - root - INFO -> --------------------------------------------------
+2026-04-09 01:41:24,219 - root - INFO -> 
+Processing 3854.jsonl.bz2...
+2026-04-09 01:41:49,155 - root - INFO -> Duplicate rows: 630
+2026-04-09 01:41:49,155 - root - INFO -> Duplicate ratio: 0.0036
+2026-04-09 01:41:54,368 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:43:45,476 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3854_clean.jsonl.bz2
+2026-04-09 01:43:45,476 - root - INFO -> --------------------------------------------------
+2026-04-09 01:43:45,476 - root - INFO -> 
+Processing 3855.jsonl.bz2...
+2026-04-09 01:44:10,081 - root - INFO -> Duplicate rows: 812
+2026-04-09 01:44:10,081 - root - INFO -> Duplicate ratio: 0.0045
+2026-04-09 01:44:15,317 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:46:05,529 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3855_clean.jsonl.bz2
+2026-04-09 01:46:05,529 - root - INFO -> --------------------------------------------------
+2026-04-09 01:46:05,529 - root - INFO -> 
+Processing 3856.jsonl.bz2...
+2026-04-09 01:46:34,253 - root - INFO -> Duplicate rows: 786
+2026-04-09 01:46:34,253 - root - INFO -> Duplicate ratio: 0.0040
+2026-04-09 01:46:41,083 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:48:37,072 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3856_clean.jsonl.bz2
+2026-04-09 01:48:37,072 - root - INFO -> --------------------------------------------------
+2026-04-09 01:48:37,072 - root - INFO -> 
+Processing 3857.jsonl.bz2...
+2026-04-09 01:49:01,600 - root - INFO -> Duplicate rows: 686
+2026-04-09 01:49:01,600 - root - INFO -> Duplicate ratio: 0.0038
+2026-04-09 01:49:06,613 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:51:40,893 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3857_clean.jsonl.bz2
+2026-04-09 01:51:40,907 - root - INFO -> --------------------------------------------------
+2026-04-09 01:51:40,907 - root - INFO -> 
+Processing 3858.jsonl.bz2...
+2026-04-09 01:52:06,179 - root - INFO -> Duplicate rows: 804
+2026-04-09 01:52:06,179 - root - INFO -> Duplicate ratio: 0.0043
+2026-04-09 01:52:11,907 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:54:07,166 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3858_clean.jsonl.bz2
+2026-04-09 01:54:07,166 - root - INFO -> --------------------------------------------------
+2026-04-09 01:54:07,166 - root - INFO -> 
+Processing 3859.jsonl.bz2...
+2026-04-09 01:54:34,394 - root - INFO -> Duplicate rows: 786
+2026-04-09 01:54:34,394 - root - INFO -> Duplicate ratio: 0.0042
+2026-04-09 01:54:39,809 - root - INFO -> \u2705 All duplicates identical \u2192 safe drop
+2026-04-09 01:56:35,584 - root - INFO -> \u2705 Saved: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_clean\3859_clean.jsonl.bz2
+2026-04-09 01:56:39,580 - root - INFO -> --------------------------------------------------
+2026-04-09 01:56:39,580 - root - INFO -> 
+Processing 10502_clean.jsonl.bz2...
+2026-04-09 01:57:15,440 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10502.parquet
+2026-04-09 01:57:15,440 - root - INFO -> --------------------------------------------------
+2026-04-09 01:57:15,440 - root - INFO -> 
+Processing 10503_clean.jsonl.bz2...
+2026-04-09 01:57:57,619 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10503.parquet
+2026-04-09 01:57:57,619 - root - INFO -> --------------------------------------------------
+2026-04-09 01:57:57,619 - root - INFO -> 
+Processing 10504_clean.jsonl.bz2...
+2026-04-09 01:58:37,191 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10504.parquet
+2026-04-09 01:58:37,191 - root - INFO -> --------------------------------------------------
+2026-04-09 01:58:37,191 - root - INFO -> 
+Processing 10505_clean.jsonl.bz2...
+2026-04-09 01:59:13,851 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10505.parquet
+2026-04-09 01:59:13,851 - root - INFO -> --------------------------------------------------
+2026-04-09 01:59:13,851 - root - INFO -> 
+Processing 10506_clean.jsonl.bz2...
+2026-04-09 02:00:08,366 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10506.parquet
+2026-04-09 02:00:08,366 - root - INFO -> --------------------------------------------------
+2026-04-09 02:00:08,366 - root - INFO -> 
+Processing 10507_clean.jsonl.bz2...
+2026-04-09 02:00:52,032 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10507.parquet
+2026-04-09 02:00:52,032 - root - INFO -> --------------------------------------------------
+2026-04-09 02:00:52,032 - root - INFO -> 
+Processing 10508_clean.jsonl.bz2...
+2026-04-09 02:01:57,445 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10508.parquet
+2026-04-09 02:01:57,445 - root - INFO -> --------------------------------------------------
+2026-04-09 02:01:57,445 - root - INFO -> 
+Processing 10509_clean.jsonl.bz2...
+2026-04-09 02:02:42,998 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10509.parquet
+2026-04-09 02:02:42,998 - root - INFO -> --------------------------------------------------
+2026-04-09 02:02:42,998 - root - INFO -> 
+Processing 10510_clean.jsonl.bz2...
+2026-04-09 02:03:30,362 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10510.parquet
+2026-04-09 02:03:30,362 - root - INFO -> --------------------------------------------------
+2026-04-09 02:03:30,362 - root - INFO -> 
+Processing 10511_clean.jsonl.bz2...
+2026-04-09 02:04:22,882 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10511.parquet
+2026-04-09 02:04:22,882 - root - INFO -> --------------------------------------------------
+2026-04-09 02:04:22,882 - root - INFO -> 
+Processing 10512_clean.jsonl.bz2...
+2026-04-09 02:05:07,336 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10512.parquet
+2026-04-09 02:05:07,336 - root - INFO -> --------------------------------------------------
+2026-04-09 02:05:07,336 - root - INFO -> 
+Processing 10513_clean.jsonl.bz2...
+2026-04-09 02:05:53,608 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10513.parquet
+2026-04-09 02:05:53,608 - root - INFO -> --------------------------------------------------
+2026-04-09 02:05:53,608 - root - INFO -> 
+Processing 10514_clean.jsonl.bz2...
+2026-04-09 02:06:40,434 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10514.parquet
+2026-04-09 02:06:40,434 - root - INFO -> --------------------------------------------------
+2026-04-09 02:06:40,434 - root - INFO -> 
+Processing 10515_clean.jsonl.bz2...
+2026-04-09 02:07:27,215 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10515.parquet
+2026-04-09 02:07:27,215 - root - INFO -> --------------------------------------------------
+2026-04-09 02:07:27,215 - root - INFO -> 
+Processing 10516_clean.jsonl.bz2...
+2026-04-09 02:08:15,788 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10516.parquet
+2026-04-09 02:08:15,788 - root - INFO -> --------------------------------------------------
+2026-04-09 02:08:15,788 - root - INFO -> 
+Processing 10517_clean.jsonl.bz2...
+2026-04-09 02:09:23,205 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10517.parquet
+2026-04-09 02:09:23,205 - root - INFO -> --------------------------------------------------
+2026-04-09 02:09:23,205 - root - INFO -> 
+Processing 3812_clean.jsonl.bz2...
+2026-04-09 02:10:20,383 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3812.parquet
+2026-04-09 02:10:20,383 - root - INFO -> --------------------------------------------------
+2026-04-09 02:10:20,383 - root - INFO -> 
+Processing 3813_clean.jsonl.bz2...
+2026-04-09 02:11:11,730 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3813.parquet
+2026-04-09 02:11:11,730 - root - INFO -> --------------------------------------------------
+2026-04-09 02:11:11,730 - root - INFO -> 
+Processing 3814_clean.jsonl.bz2...
+2026-04-09 02:11:56,907 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3814.parquet
+2026-04-09 02:11:56,907 - root - INFO -> --------------------------------------------------
+2026-04-09 02:11:56,907 - root - INFO -> 
+Processing 3815_clean.jsonl.bz2...
+2026-04-09 02:12:46,140 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3815.parquet
+2026-04-09 02:12:46,140 - root - INFO -> --------------------------------------------------
+2026-04-09 02:12:46,140 - root - INFO -> 
+Processing 3816_clean.jsonl.bz2...
+2026-04-09 02:13:34,664 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3816.parquet
+2026-04-09 02:13:34,664 - root - INFO -> --------------------------------------------------
+2026-04-09 02:13:34,664 - root - INFO -> 
+Processing 3817_clean.jsonl.bz2...
+2026-04-09 02:14:23,887 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3817.parquet
+2026-04-09 02:14:23,887 - root - INFO -> --------------------------------------------------
+2026-04-09 02:14:23,887 - root - INFO -> 
+Processing 3818_clean.jsonl.bz2...
+2026-04-09 02:15:09,288 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3818.parquet
+2026-04-09 02:15:09,288 - root - INFO -> --------------------------------------------------
+2026-04-09 02:15:09,288 - root - INFO -> 
+Processing 3819_clean.jsonl.bz2...
+2026-04-09 02:16:02,214 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3819.parquet
+2026-04-09 02:16:02,214 - root - INFO -> --------------------------------------------------
+2026-04-09 02:16:02,214 - root - INFO -> 
+Processing 3820_clean.jsonl.bz2...
+2026-04-09 02:16:48,935 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3820.parquet
+2026-04-09 02:16:48,935 - root - INFO -> --------------------------------------------------
+2026-04-09 02:16:48,935 - root - INFO -> 
+Processing 3821_clean.jsonl.bz2...
+2026-04-09 02:17:39,914 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3821.parquet
+2026-04-09 02:17:39,914 - root - INFO -> --------------------------------------------------
+2026-04-09 02:17:39,914 - root - INFO -> 
+Processing 3822_clean.jsonl.bz2...
+2026-04-09 02:18:30,860 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3822.parquet
+2026-04-09 02:18:30,860 - root - INFO -> --------------------------------------------------
+2026-04-09 02:18:30,860 - root - INFO -> 
+Processing 3823_clean.jsonl.bz2...
+2026-04-09 02:19:19,784 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3823.parquet
+2026-04-09 02:19:19,784 - root - INFO -> --------------------------------------------------
+2026-04-09 02:19:19,784 - root - INFO -> 
+Processing 3824_clean.jsonl.bz2...
+2026-04-09 02:20:08,547 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3824.parquet
+2026-04-09 02:20:08,547 - root - INFO -> --------------------------------------------------
+2026-04-09 02:20:08,547 - root - INFO -> 
+Processing 3825_clean.jsonl.bz2...
+2026-04-09 02:20:59,823 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3825.parquet
+2026-04-09 02:20:59,823 - root - INFO -> --------------------------------------------------
+2026-04-09 02:20:59,823 - root - INFO -> 
+Processing 3826_clean.jsonl.bz2...
+2026-04-09 02:21:50,853 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3826.parquet
+2026-04-09 02:21:50,853 - root - INFO -> --------------------------------------------------
+2026-04-09 02:21:50,853 - root - INFO -> 
+Processing 3827_clean.jsonl.bz2...
+2026-04-09 02:22:44,416 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3827.parquet
+2026-04-09 02:22:44,416 - root - INFO -> --------------------------------------------------
+2026-04-09 02:22:44,416 - root - INFO -> 
+Processing 3828_clean.jsonl.bz2...
+2026-04-09 02:23:38,955 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3828.parquet
+2026-04-09 02:23:38,955 - root - INFO -> --------------------------------------------------
+2026-04-09 02:23:38,955 - root - INFO -> 
+Processing 3829_clean.jsonl.bz2...
+2026-04-09 02:24:32,602 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3829.parquet
+2026-04-09 02:24:32,602 - root - INFO -> --------------------------------------------------
+2026-04-09 02:24:32,602 - root - INFO -> 
+Processing 3830_clean.jsonl.bz2...
+2026-04-09 02:25:23,461 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3830.parquet
+2026-04-09 02:25:23,461 - root - INFO -> --------------------------------------------------
+2026-04-09 02:25:23,461 - root - INFO -> 
+Processing 3831_clean.jsonl.bz2...
+2026-04-09 02:26:13,617 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3831.parquet
+2026-04-09 02:26:13,617 - root - INFO -> --------------------------------------------------
+2026-04-09 02:26:13,617 - root - INFO -> 
+Processing 3832_clean.jsonl.bz2...
+2026-04-09 02:27:04,751 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3832.parquet
+2026-04-09 02:27:04,751 - root - INFO -> --------------------------------------------------
+2026-04-09 02:27:04,751 - root - INFO -> 
+Processing 3833_clean.jsonl.bz2...
+2026-04-09 02:27:58,890 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3833.parquet
+2026-04-09 02:27:58,890 - root - INFO -> --------------------------------------------------
+2026-04-09 02:27:58,890 - root - INFO -> 
+Processing 3834_clean.jsonl.bz2...
+2026-04-09 02:28:51,911 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3834.parquet
+2026-04-09 02:28:51,911 - root - INFO -> --------------------------------------------------
+2026-04-09 02:28:51,911 - root - INFO -> 
+Processing 3835_clean.jsonl.bz2...
+2026-04-09 02:29:46,916 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3835.parquet
+2026-04-09 02:29:46,916 - root - INFO -> --------------------------------------------------
+2026-04-09 02:29:46,916 - root - INFO -> 
+Processing 3836_clean.jsonl.bz2...
+2026-04-09 02:30:36,729 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3836.parquet
+2026-04-09 02:30:36,729 - root - INFO -> --------------------------------------------------
+2026-04-09 02:30:36,729 - root - INFO -> 
+Processing 3837_clean.jsonl.bz2...
+2026-04-09 02:31:26,898 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3837.parquet
+2026-04-09 02:31:26,898 - root - INFO -> --------------------------------------------------
+2026-04-09 02:31:26,898 - root - INFO -> 
+Processing 3838_clean.jsonl.bz2...
+2026-04-09 02:32:18,922 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3838.parquet
+2026-04-09 02:32:18,922 - root - INFO -> --------------------------------------------------
+2026-04-09 02:32:18,922 - root - INFO -> 
+Processing 3839_clean.jsonl.bz2...
+2026-04-09 02:33:11,367 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3839.parquet
+2026-04-09 02:33:11,367 - root - INFO -> --------------------------------------------------
+2026-04-09 02:33:11,367 - root - INFO -> 
+Processing 3840_clean.jsonl.bz2...
+2026-04-09 02:34:03,305 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3840.parquet
+2026-04-09 02:34:03,305 - root - INFO -> --------------------------------------------------
+2026-04-09 02:34:03,305 - root - INFO -> 
+Processing 3841_clean.jsonl.bz2...
+2026-04-09 02:34:58,350 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3841.parquet
+2026-04-09 02:34:58,350 - root - INFO -> --------------------------------------------------
+2026-04-09 02:34:58,350 - root - INFO -> 
+Processing 3842_clean.jsonl.bz2...
+2026-04-09 02:35:53,107 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3842.parquet
+2026-04-09 02:35:53,107 - root - INFO -> --------------------------------------------------
+2026-04-09 02:35:53,107 - root - INFO -> 
+Processing 3843_clean.jsonl.bz2...
+2026-04-09 02:36:45,472 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3843.parquet
+2026-04-09 02:36:45,472 - root - INFO -> --------------------------------------------------
+2026-04-09 02:36:45,472 - root - INFO -> 
+Processing 3844_clean.jsonl.bz2...
+2026-04-09 02:37:38,853 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3844.parquet
+2026-04-09 02:37:38,853 - root - INFO -> --------------------------------------------------
+2026-04-09 02:37:38,853 - root - INFO -> 
+Processing 3845_clean.jsonl.bz2...
+2026-04-09 02:38:33,943 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3845.parquet
+2026-04-09 02:38:33,943 - root - INFO -> --------------------------------------------------
+2026-04-09 02:38:33,943 - root - INFO -> 
+Processing 3846_clean.jsonl.bz2...
+2026-04-09 02:39:26,290 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3846.parquet
+2026-04-09 02:39:26,290 - root - INFO -> --------------------------------------------------
+2026-04-09 02:39:26,290 - root - INFO -> 
+Processing 3847_clean.jsonl.bz2...
+2026-04-09 02:40:20,505 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3847.parquet
+2026-04-09 02:40:20,505 - root - INFO -> --------------------------------------------------
+2026-04-09 02:40:20,505 - root - INFO -> 
+Processing 3848_clean.jsonl.bz2...
+2026-04-09 02:41:17,017 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3848.parquet
+2026-04-09 02:41:17,017 - root - INFO -> --------------------------------------------------
+2026-04-09 02:41:17,017 - root - INFO -> 
+Processing 3849_clean.jsonl.bz2...
+2026-04-09 02:42:10,263 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3849.parquet
+2026-04-09 02:42:10,263 - root - INFO -> --------------------------------------------------
+2026-04-09 02:42:10,263 - root - INFO -> 
+Processing 3850_clean.jsonl.bz2...
+2026-04-09 02:43:03,024 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3850.parquet
+2026-04-09 02:43:03,024 - root - INFO -> --------------------------------------------------
+2026-04-09 02:43:03,024 - root - INFO -> 
+Processing 3851_clean.jsonl.bz2...
+2026-04-09 02:43:59,598 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3851.parquet
+2026-04-09 02:43:59,598 - root - INFO -> --------------------------------------------------
+2026-04-09 02:43:59,598 - root - INFO -> 
+Processing 3852_clean.jsonl.bz2...
+2026-04-09 02:44:52,814 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3852.parquet
+2026-04-09 02:44:52,814 - root - INFO -> --------------------------------------------------
+2026-04-09 02:44:52,814 - root - INFO -> 
+Processing 3853_clean.jsonl.bz2...
+2026-04-09 02:45:45,814 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3853.parquet
+2026-04-09 02:45:45,814 - root - INFO -> --------------------------------------------------
+2026-04-09 02:45:45,814 - root - INFO -> 
+Processing 3854_clean.jsonl.bz2...
+2026-04-09 02:46:37,157 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3854.parquet
+2026-04-09 02:46:37,157 - root - INFO -> --------------------------------------------------
+2026-04-09 02:46:37,157 - root - INFO -> 
+Processing 3855_clean.jsonl.bz2...
+2026-04-09 02:47:30,639 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3855.parquet
+2026-04-09 02:47:30,639 - root - INFO -> --------------------------------------------------
+2026-04-09 02:47:30,639 - root - INFO -> 
+Processing 3856_clean.jsonl.bz2...
+2026-04-09 02:48:26,930 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3856.parquet
+2026-04-09 02:48:26,930 - root - INFO -> --------------------------------------------------
+2026-04-09 02:48:26,930 - root - INFO -> 
+Processing 3857_clean.jsonl.bz2...
+2026-04-09 02:49:19,064 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3857.parquet
+2026-04-09 02:49:19,064 - root - INFO -> --------------------------------------------------
+2026-04-09 02:49:19,064 - root - INFO -> 
+Processing 3858_clean.jsonl.bz2...
+2026-04-09 02:50:16,057 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3858.parquet
+2026-04-09 02:50:16,057 - root - INFO -> --------------------------------------------------
+2026-04-09 02:50:16,057 - root - INFO -> 
+Processing 3859_clean.jsonl.bz2...
+2026-04-09 02:51:10,524 - root - INFO -> \u2705 Converted to parquet: C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3859.parquet
+2026-04-09 02:51:16,050 - root - INFO -> --------------------------------------------------
+2026-04-09 02:51:16,050 - root - INFO -> Processing game 10502...
+2026-04-09 02:51:16,661 - root - INFO -> --------------------------------------------------
+2026-04-09 02:51:16,661 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10502.json: 2240 events
+2026-04-09 02:51:22,534 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10502.parquet: 175969 rows
+2026-04-09 02:51:46,863 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 13349.44ms 
+2026-04-09 02:51:46,863 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 02:54:28,523 - root - INFO -> Loaded tracking data for game 10502
+2026-04-09 02:54:28,589 - root - INFO -> Number of successful passes: 821
+2026-04-09 02:54:28,590 - root - INFO -> Number of passes in event_df: 1006
+2026-04-09 02:54:28,590 - root - INFO -> Number of passes in tracking_df: 1006
+2026-04-09 02:54:32,719 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 02:54:53,385 - root - INFO -> Processed game 10502
+2026-04-09 02:54:53,385 - root - INFO -> --------------------------------------------------
+2026-04-09 02:54:53,385 - root - INFO -> Processing game 10503...
+2026-04-09 02:54:53,897 - root - INFO -> --------------------------------------------------
+2026-04-09 02:54:53,897 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10503.json: 2492 events
+2026-04-09 02:55:02,723 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10503.parquet: 178773 rows
+2026-04-09 02:55:43,748 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 26945.40ms 
+2026-04-09 02:55:43,748 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 02:58:33,664 - root - INFO -> Loaded tracking data for game 10503
+2026-04-09 02:58:33,724 - root - INFO -> Number of successful passes: 998
+2026-04-09 02:58:34,143 - root - INFO -> Number of passes in event_df: 1159
+2026-04-09 02:58:34,143 - root - INFO -> Number of passes in tracking_df: 1159
+2026-04-09 02:58:38,720 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 02:59:04,557 - root - INFO -> Processed game 10503
+2026-04-09 02:59:04,557 - root - INFO -> --------------------------------------------------
+2026-04-09 02:59:04,557 - root - INFO -> Processing game 10504...
+2026-04-09 02:59:04,999 - root - INFO -> --------------------------------------------------
+2026-04-09 02:59:04,999 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10504.json: 2261 events
+2026-04-09 02:59:11,983 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10504.parquet: 182008 rows
+2026-04-09 02:59:34,849 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11133.39ms 
+2026-04-09 02:59:34,849 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:02:35,308 - root - INFO -> Loaded tracking data for game 10504
+2026-04-09 03:02:35,371 - root - INFO -> Number of successful passes: 881
+2026-04-09 03:02:35,929 - root - INFO -> Number of passes in event_df: 1028
+2026-04-09 03:02:35,929 - root - INFO -> Number of passes in tracking_df: 1028
+2026-04-09 03:02:39,908 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 03:03:01,559 - root - INFO -> Processed game 10504
+2026-04-09 03:03:01,559 - root - INFO -> --------------------------------------------------
+2026-04-09 03:03:01,559 - root - INFO -> Processing game 10505...
+2026-04-09 03:03:01,932 - root - INFO -> --------------------------------------------------
+2026-04-09 03:03:01,932 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10505.json: 2096 events
+2026-04-09 03:03:08,796 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10505.parquet: 175545 rows
+2026-04-09 03:03:30,041 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10456.00ms 
+2026-04-09 03:03:30,041 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:06:20,256 - root - INFO -> Loaded tracking data for game 10505
+2026-04-09 03:06:20,318 - root - INFO -> Number of successful passes: 829
+2026-04-09 03:06:20,766 - root - INFO -> Number of passes in event_df: 986
+2026-04-09 03:06:20,766 - root - INFO -> Number of passes in tracking_df: 986
+2026-04-09 03:06:24,725 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 03:06:55,543 - root - INFO -> Processed game 10505
+2026-04-09 03:06:55,543 - root - INFO -> --------------------------------------------------
+2026-04-09 03:06:55,543 - root - INFO -> Processing game 10506...
+2026-04-09 03:06:56,098 - root - INFO -> --------------------------------------------------
+2026-04-09 03:06:56,098 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10506.json: 2881 events
+2026-04-09 03:07:05,039 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10506.parquet: 232938 rows
+2026-04-09 03:07:43,588 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 21086.82ms 
+2026-04-09 03:07:43,588 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:11:25,490 - root - INFO -> Loaded tracking data for game 10506
+2026-04-09 03:11:25,581 - root - INFO -> Number of successful passes: 1031
+2026-04-09 03:11:26,031 - root - INFO -> Number of passes in event_df: 1285
+2026-04-09 03:11:26,031 - root - INFO -> Number of passes in tracking_df: 1285
+2026-04-09 03:11:30,681 - root - ERROR -> Player 4892.0 not found in home team for possession event ID: 6523717.0
+2026-04-09 03:11:30,683 - root - ERROR -> Error occurred while processing possession event ID: 6523717.0, Error: single positional indexer is out-of-bounds
+2026-04-09 03:11:31,305 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 03:11:55,689 - root - INFO -> Processed game 10506
+2026-04-09 03:11:55,689 - root - INFO -> --------------------------------------------------
+2026-04-09 03:11:55,689 - root - INFO -> Processing game 10507...
+2026-04-09 03:11:56,138 - root - INFO -> --------------------------------------------------
+2026-04-09 03:11:56,138 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10507.json: 2432 events
+2026-04-09 03:12:04,160 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10507.parquet: 177972 rows
+2026-04-09 03:12:29,204 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 12527.20ms 
+2026-04-09 03:12:29,204 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:15:28,809 - root - INFO -> Loaded tracking data for game 10507
+2026-04-09 03:15:28,883 - root - INFO -> Number of successful passes: 1036
+2026-04-09 03:15:29,711 - root - INFO -> Number of passes in event_df: 1161
+2026-04-09 03:15:29,711 - root - INFO -> Number of passes in tracking_df: 1161
+2026-04-09 03:15:34,289 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 03:15:59,577 - root - INFO -> Processed game 10507
+2026-04-09 03:15:59,577 - root - INFO -> --------------------------------------------------
+2026-04-09 03:15:59,577 - root - INFO -> Processing game 10508...
+2026-04-09 03:16:00,278 - root - INFO -> --------------------------------------------------
+2026-04-09 03:16:00,278 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10508.json: 3044 events
+2026-04-09 03:16:10,082 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10508.parquet: 234802 rows
+2026-04-09 03:16:45,993 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 18458.47ms 
+2026-04-09 03:16:45,993 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:20:39,587 - root - INFO -> Loaded tracking data for game 10508
+2026-04-09 03:20:39,653 - root - INFO -> Number of successful passes: 1192
+2026-04-09 03:20:40,447 - root - INFO -> Number of passes in event_df: 1369
+2026-04-09 03:20:40,447 - root - INFO -> Number of passes in tracking_df: 1369
+2026-04-09 03:20:45,433 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6533003.0, Error: 'home_22_x'
+2026-04-09 03:20:46,166 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 03:21:14,969 - root - INFO -> Processed game 10508
+2026-04-09 03:21:14,969 - root - INFO -> --------------------------------------------------
+2026-04-09 03:21:14,969 - root - INFO -> Processing game 10509...
+2026-04-09 03:21:15,399 - root - INFO -> --------------------------------------------------
+2026-04-09 03:21:15,399 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10509.json: 2085 events
+2026-04-09 03:21:22,202 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10509.parquet: 176298 rows
+2026-04-09 03:21:45,010 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10866.86ms 
+2026-04-09 03:21:45,010 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:24:42,663 - root - INFO -> Loaded tracking data for game 10509
+2026-04-09 03:24:42,747 - root - INFO -> Number of successful passes: 823
+2026-04-09 03:24:43,755 - root - INFO -> Number of passes in event_df: 972
+2026-04-09 03:24:43,755 - root - INFO -> Number of passes in tracking_df: 972
+2026-04-09 03:24:47,607 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 03:25:07,147 - root - INFO -> Processed game 10509
+2026-04-09 03:25:07,147 - root - INFO -> --------------------------------------------------
+2026-04-09 03:25:07,147 - root - INFO -> Processing game 10510...
+2026-04-09 03:25:07,909 - root - INFO -> --------------------------------------------------
+2026-04-09 03:25:07,909 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10510.json: 3160 events
+2026-04-09 03:25:15,536 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10510.parquet: 170709 rows
+2026-04-09 03:25:41,696 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 12689.02ms 
+2026-04-09 03:25:41,696 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:28:26,510 - root - INFO -> Loaded tracking data for game 10510
+2026-04-09 03:28:26,605 - root - INFO -> Number of successful passes: 995
+2026-04-09 03:28:27,250 - root - INFO -> Number of passes in event_df: 1112
+2026-04-09 03:28:27,252 - root - INFO -> Number of passes in tracking_df: 1112
+2026-04-09 03:28:27,491 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6546788.0, Error: 'home_5_x'
+2026-04-09 03:28:31,224 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 03:29:07,833 - root - INFO -> Processed game 10510
+2026-04-09 03:29:07,833 - root - INFO -> --------------------------------------------------
+2026-04-09 03:29:07,833 - root - INFO -> Processing game 10511...
+2026-04-09 03:29:08,481 - root - INFO -> --------------------------------------------------
+2026-04-09 03:29:08,481 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10511.json: 2832 events
+2026-04-09 03:29:17,023 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10511.parquet: 195468 rows
+2026-04-09 03:29:47,754 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 17093.26ms 
+2026-04-09 03:29:47,754 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:32:47,661 - root - INFO -> Loaded tracking data for game 10511
+2026-04-09 03:32:47,741 - root - INFO -> Number of successful passes: 824
+2026-04-09 03:32:48,500 - root - INFO -> Number of passes in event_df: 978
+2026-04-09 03:32:48,500 - root - INFO -> Number of passes in tracking_df: 978
+2026-04-09 03:32:52,240 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 03:33:13,783 - root - INFO -> Processed game 10511
+2026-04-09 03:33:13,783 - root - INFO -> --------------------------------------------------
+2026-04-09 03:33:13,783 - root - INFO -> Processing game 10512...
+2026-04-09 03:33:14,226 - root - INFO -> --------------------------------------------------
+2026-04-09 03:33:14,226 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10512.json: 2103 events
+2026-04-09 03:33:20,580 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10512.parquet: 180870 rows
+2026-04-09 03:33:57,291 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 25520.40ms 
+2026-04-09 03:33:57,291 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:36:47,449 - root - INFO -> Loaded tracking data for game 10512
+2026-04-09 03:36:47,513 - root - INFO -> Number of successful passes: 781
+2026-04-09 03:36:48,387 - root - INFO -> Number of passes in event_df: 932
+2026-04-09 03:36:48,387 - root - INFO -> Number of passes in tracking_df: 932
+2026-04-09 03:36:51,143 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6550673.0, Error: 'home_10_x'
+2026-04-09 03:36:52,129 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 03:37:11,262 - root - INFO -> Processed game 10512
+2026-04-09 03:37:11,262 - root - INFO -> --------------------------------------------------
+2026-04-09 03:37:11,262 - root - INFO -> Processing game 10513...
+2026-04-09 03:37:11,656 - root - INFO -> --------------------------------------------------
+2026-04-09 03:37:11,658 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10513.json: 2007 events
+2026-04-09 03:37:18,669 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10513.parquet: 189407 rows
+2026-04-09 03:37:42,166 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11537.35ms 
+2026-04-09 03:37:42,166 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:40:48,890 - root - INFO -> Loaded tracking data for game 10513
+2026-04-09 03:40:48,952 - root - INFO -> Number of successful passes: 770
+2026-04-09 03:40:49,585 - root - INFO -> Number of passes in event_df: 899
+2026-04-09 03:40:49,585 - root - INFO -> Number of passes in tracking_df: 899
+2026-04-09 03:40:52,628 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6552597.0, Error: 'away_20_x'
+2026-04-09 03:40:52,748 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 03:41:12,561 - root - INFO -> Processed game 10513
+2026-04-09 03:41:12,561 - root - INFO -> --------------------------------------------------
+2026-04-09 03:41:12,561 - root - INFO -> Processing game 10514...
+2026-04-09 03:41:13,054 - root - INFO -> --------------------------------------------------
+2026-04-09 03:41:13,054 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10514.json: 2271 events
+2026-04-09 03:41:19,391 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10514.parquet: 178435 rows
+2026-04-09 03:41:41,817 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10978.99ms 
+2026-04-09 03:41:41,817 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:44:40,847 - root - INFO -> Loaded tracking data for game 10514
+2026-04-09 03:44:40,912 - root - INFO -> Number of successful passes: 897
+2026-04-09 03:44:41,583 - root - INFO -> Number of passes in event_df: 1044
+2026-04-09 03:44:41,583 - root - INFO -> Number of passes in tracking_df: 1044
+2026-04-09 03:44:45,732 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 03:45:08,193 - root - INFO -> Processed game 10514
+2026-04-09 03:45:08,193 - root - INFO -> --------------------------------------------------
+2026-04-09 03:45:08,193 - root - INFO -> Processing game 10515...
+2026-04-09 03:45:08,605 - root - INFO -> --------------------------------------------------
+2026-04-09 03:45:08,605 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10515.json: 2174 events
+2026-04-09 03:45:15,130 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10515.parquet: 178442 rows
+2026-04-09 03:45:37,527 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10913.33ms 
+2026-04-09 03:45:37,527 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:48:31,708 - root - INFO -> Loaded tracking data for game 10515
+2026-04-09 03:48:31,783 - root - INFO -> Number of successful passes: 826
+2026-04-09 03:48:32,409 - root - INFO -> Number of passes in event_df: 958
+2026-04-09 03:48:32,409 - root - INFO -> Number of passes in tracking_df: 958
+2026-04-09 03:48:36,016 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 03:48:57,301 - root - INFO -> Processed game 10515
+2026-04-09 03:48:57,301 - root - INFO -> --------------------------------------------------
+2026-04-09 03:48:57,301 - root - INFO -> Processing game 10516...
+2026-04-09 03:48:57,700 - root - INFO -> --------------------------------------------------
+2026-04-09 03:48:57,700 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10516.json: 2199 events
+2026-04-09 03:49:03,873 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10516.parquet: 176352 rows
+2026-04-09 03:49:39,937 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 24924.72ms 
+2026-04-09 03:49:39,937 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:52:22,705 - root - INFO -> Loaded tracking data for game 10516
+2026-04-09 03:52:22,768 - root - INFO -> Number of successful passes: 843
+2026-04-09 03:52:23,424 - root - INFO -> Number of passes in event_df: 982
+2026-04-09 03:52:23,424 - root - INFO -> Number of passes in tracking_df: 982
+2026-04-09 03:52:26,667 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6614477.0, Error: 'away_16_x'
+2026-04-09 03:52:27,308 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 03:52:48,339 - root - INFO -> Processed game 10516
+2026-04-09 03:52:48,339 - root - INFO -> --------------------------------------------------
+2026-04-09 03:52:48,339 - root - INFO -> Processing game 10517...
+2026-04-09 03:52:48,863 - root - INFO -> --------------------------------------------------
+2026-04-09 03:52:48,863 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\10517.json: 2814 events
+2026-04-09 03:52:58,969 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\10517.parquet: 254221 rows
+2026-04-09 03:53:38,015 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 20854.78ms 
+2026-04-09 03:53:38,015 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 03:57:50,349 - root - INFO -> Loaded tracking data for game 10517
+2026-04-09 03:57:50,431 - root - INFO -> Number of successful passes: 976
+2026-04-09 03:57:51,035 - root - INFO -> Number of passes in event_df: 1195
+2026-04-09 03:57:51,035 - root - INFO -> Number of passes in tracking_df: 1195
+2026-04-09 03:57:55,840 - root - ERROR -> Player 8138.0 not found in away team for possession event ID: 6622571.0
+2026-04-09 03:57:55,840 - root - ERROR -> Error occurred while processing possession event ID: 6622571.0, Error: single positional indexer is out-of-bounds
+2026-04-09 03:57:56,150 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 03:58:20,226 - root - INFO -> Processed game 10517
+2026-04-09 03:58:20,226 - root - INFO -> --------------------------------------------------
+2026-04-09 03:58:20,226 - root - INFO -> Processing game 3812...
+2026-04-09 03:58:20,671 - root - INFO -> --------------------------------------------------
+2026-04-09 03:58:20,671 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3812.json: 2010 events
+2026-04-09 03:58:28,093 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3812.parquet: 184837 rows
+2026-04-09 03:58:54,358 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 12780.42ms 
+2026-04-09 03:58:54,358 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:01:58,715 - root - INFO -> Loaded tracking data for game 3812
+2026-04-09 04:01:58,790 - root - INFO -> Number of successful passes: 708
+2026-04-09 04:01:59,876 - root - INFO -> Number of passes in event_df: 873
+2026-04-09 04:01:59,876 - root - INFO -> Number of passes in tracking_df: 873
+2026-04-09 04:02:03,095 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6375143.0, Error: 'away_16_x'
+2026-04-09 04:02:03,339 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 04:02:20,011 - root - INFO -> Processed game 3812
+2026-04-09 04:02:20,011 - root - INFO -> --------------------------------------------------
+2026-04-09 04:02:20,011 - root - INFO -> Processing game 3813...
+2026-04-09 04:02:20,499 - root - INFO -> --------------------------------------------------
+2026-04-09 04:02:20,499 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3813.json: 2218 events
+2026-04-09 04:02:27,972 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3813.parquet: 210568 rows
+2026-04-09 04:03:06,438 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 25436.81ms 
+2026-04-09 04:03:06,438 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:06:21,364 - root - INFO -> Loaded tracking data for game 3813
+2026-04-09 04:06:21,434 - root - INFO -> Number of successful passes: 896
+2026-04-09 04:06:21,909 - root - INFO -> Number of passes in event_df: 1062
+2026-04-09 04:06:21,909 - root - INFO -> Number of passes in tracking_df: 1062
+2026-04-09 04:06:21,915 - root - ERROR -> Error occurred while processing possession event ID: 6372115.0, Error: index 0 is out of bounds for axis 0 with size 0
+2026-04-09 04:06:21,918 - root - ERROR -> Error occurred while processing possession event ID: 6372123.0, Error: index 0 is out of bounds for axis 0 with size 0
+2026-04-09 04:06:21,921 - root - ERROR -> Error occurred while processing possession event ID: 6372184.0, Error: index 0 is out of bounds for axis 0 with size 0
+2026-04-09 04:06:26,351 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 3
+2026-04-09 04:06:48,402 - root - INFO -> Processed game 3813
+2026-04-09 04:06:48,402 - root - INFO -> --------------------------------------------------
+2026-04-09 04:06:48,402 - root - INFO -> Processing game 3814...
+2026-04-09 04:06:48,766 - root - INFO -> --------------------------------------------------
+2026-04-09 04:06:48,766 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3814.json: 2034 events
+2026-04-09 04:06:55,391 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3814.parquet: 180426 rows
+2026-04-09 04:07:18,135 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11182.44ms 
+2026-04-09 04:07:18,135 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:10:22,832 - root - INFO -> Loaded tracking data for game 3814
+2026-04-09 04:10:22,922 - root - INFO -> Number of successful passes: 799
+2026-04-09 04:10:23,464 - root - INFO -> Number of passes in event_df: 954
+2026-04-09 04:10:23,464 - root - INFO -> Number of passes in tracking_df: 954
+2026-04-09 04:10:26,923 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6353390.0, Error: 'away_15_x'
+2026-04-09 04:10:26,982 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6353424.0, Error: 'away_15_x'
+2026-04-09 04:10:27,058 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 2
+2026-04-09 04:10:44,908 - root - INFO -> Processed game 3814
+2026-04-09 04:10:44,908 - root - INFO -> --------------------------------------------------
+2026-04-09 04:10:44,908 - root - INFO -> Processing game 3815...
+2026-04-09 04:10:45,366 - root - INFO -> --------------------------------------------------
+2026-04-09 04:10:45,366 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3815.json: 2273 events
+2026-04-09 04:10:52,541 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3815.parquet: 187924 rows
+2026-04-09 04:11:15,547 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11239.74ms 
+2026-04-09 04:11:15,547 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:14:21,618 - root - INFO -> Loaded tracking data for game 3815
+2026-04-09 04:14:21,678 - root - INFO -> Number of successful passes: 833
+2026-04-09 04:14:22,053 - root - INFO -> Number of passes in event_df: 992
+2026-04-09 04:14:22,053 - root - INFO -> Number of passes in tracking_df: 992
+2026-04-09 04:14:25,999 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 04:14:47,261 - root - INFO -> Processed game 3815
+2026-04-09 04:14:47,261 - root - INFO -> --------------------------------------------------
+2026-04-09 04:14:47,261 - root - INFO -> Processing game 3816...
+2026-04-09 04:14:47,672 - root - INFO -> --------------------------------------------------
+2026-04-09 04:14:47,672 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3816.json: 2099 events
+2026-04-09 04:14:55,019 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3816.parquet: 198142 rows
+2026-04-09 04:15:33,602 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 26131.56ms 
+2026-04-09 04:15:33,602 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:18:38,069 - root - INFO -> Loaded tracking data for game 3816
+2026-04-09 04:18:38,139 - root - INFO -> Number of successful passes: 727
+2026-04-09 04:18:38,569 - root - INFO -> Number of passes in event_df: 889
+2026-04-09 04:18:38,569 - root - INFO -> Number of passes in tracking_df: 889
+2026-04-09 04:18:42,043 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 04:19:00,112 - root - INFO -> Processed game 3816
+2026-04-09 04:19:00,112 - root - INFO -> --------------------------------------------------
+2026-04-09 04:19:00,112 - root - INFO -> Processing game 3817...
+2026-04-09 04:19:00,524 - root - INFO -> --------------------------------------------------
+2026-04-09 04:19:00,524 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3817.json: 2220 events
+2026-04-09 04:19:06,846 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3817.parquet: 183789 rows
+2026-04-09 04:19:29,367 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11114.27ms 
+2026-04-09 04:19:29,367 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:22:33,676 - root - INFO -> Loaded tracking data for game 3817
+2026-04-09 04:22:33,740 - root - INFO -> Number of successful passes: 836
+2026-04-09 04:22:34,157 - root - INFO -> Number of passes in event_df: 1013
+2026-04-09 04:22:34,157 - root - INFO -> Number of passes in tracking_df: 1013
+2026-04-09 04:22:38,132 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 04:22:59,516 - root - INFO -> Processed game 3817
+2026-04-09 04:22:59,516 - root - INFO -> --------------------------------------------------
+2026-04-09 04:22:59,516 - root - INFO -> Processing game 3818...
+2026-04-09 04:22:59,925 - root - INFO -> --------------------------------------------------
+2026-04-09 04:22:59,925 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3818.json: 1975 events
+2026-04-09 04:23:06,538 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3818.parquet: 177312 rows
+2026-04-09 04:23:30,922 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 13113.51ms 
+2026-04-09 04:23:30,922 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:26:31,023 - root - INFO -> Loaded tracking data for game 3818
+2026-04-09 04:26:31,071 - root - INFO -> Number of successful passes: 673
+2026-04-09 04:26:31,451 - root - INFO -> Number of passes in event_df: 838
+2026-04-09 04:26:31,451 - root - INFO -> Number of passes in tracking_df: 838
+2026-04-09 04:26:34,595 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 04:26:51,070 - root - INFO -> Processed game 3818
+2026-04-09 04:26:51,070 - root - INFO -> --------------------------------------------------
+2026-04-09 04:26:51,070 - root - INFO -> Processing game 3819...
+2026-04-09 04:26:51,578 - root - INFO -> --------------------------------------------------
+2026-04-09 04:26:51,578 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3819.json: 2520 events
+2026-04-09 04:26:59,226 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3819.parquet: 185903 rows
+2026-04-09 04:27:25,261 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 12858.04ms 
+2026-04-09 04:27:25,261 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:30:29,405 - root - INFO -> Loaded tracking data for game 3819
+2026-04-09 04:30:29,453 - root - INFO -> Number of successful passes: 1033
+2026-04-09 04:30:29,821 - root - INFO -> Number of passes in event_df: 1186
+2026-04-09 04:30:29,821 - root - INFO -> Number of passes in tracking_df: 1186
+2026-04-09 04:30:34,614 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 04:31:02,280 - root - INFO -> Processed game 3819
+2026-04-09 04:31:02,280 - root - INFO -> --------------------------------------------------
+2026-04-09 04:31:02,280 - root - INFO -> Processing game 3820...
+2026-04-09 04:31:02,708 - root - INFO -> --------------------------------------------------
+2026-04-09 04:31:02,708 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3820.json: 2282 events
+2026-04-09 04:31:09,433 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3820.parquet: 176068 rows
+2026-04-09 04:31:45,958 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 25251.34ms 
+2026-04-09 04:31:45,958 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:34:30,009 - root - INFO -> Loaded tracking data for game 3820
+2026-04-09 04:34:30,065 - root - INFO -> Number of successful passes: 865
+2026-04-09 04:34:30,580 - root - INFO -> Number of passes in event_df: 1029
+2026-04-09 04:34:30,582 - root - INFO -> Number of passes in tracking_df: 1029
+2026-04-09 04:34:34,632 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 04:34:56,389 - root - INFO -> Processed game 3820
+2026-04-09 04:34:56,389 - root - INFO -> --------------------------------------------------
+2026-04-09 04:34:56,389 - root - INFO -> Processing game 3821...
+2026-04-09 04:34:56,790 - root - INFO -> --------------------------------------------------
+2026-04-09 04:34:56,790 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3821.json: 2296 events
+2026-04-09 04:35:03,643 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3821.parquet: 187292 rows
+2026-04-09 04:35:26,964 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11323.27ms 
+2026-04-09 04:35:26,964 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:38:30,400 - root - INFO -> Loaded tracking data for game 3821
+2026-04-09 04:38:30,463 - root - INFO -> Number of successful passes: 912
+2026-04-09 04:38:30,840 - root - INFO -> Number of passes in event_df: 1067
+2026-04-09 04:38:30,840 - root - INFO -> Number of passes in tracking_df: 1067
+2026-04-09 04:38:35,186 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 04:39:11,240 - root - INFO -> Processed game 3821
+2026-04-09 04:39:11,240 - root - INFO -> --------------------------------------------------
+2026-04-09 04:39:11,240 - root - INFO -> Processing game 3822...
+2026-04-09 04:39:11,745 - root - INFO -> --------------------------------------------------
+2026-04-09 04:39:11,745 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3822.json: 2697 events
+2026-04-09 04:39:18,076 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3822.parquet: 185442 rows
+2026-04-09 04:39:45,440 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 14932.45ms 
+2026-04-09 04:39:45,440 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:42:37,667 - root - INFO -> Loaded tracking data for game 3822
+2026-04-09 04:42:37,727 - root - INFO -> Number of successful passes: 1178
+2026-04-09 04:42:38,157 - root - INFO -> Number of passes in event_df: 1308
+2026-04-09 04:42:38,157 - root - INFO -> Number of passes in tracking_df: 1308
+2026-04-09 04:42:43,452 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 04:43:16,103 - root - INFO -> Processed game 3822
+2026-04-09 04:43:16,103 - root - INFO -> --------------------------------------------------
+2026-04-09 04:43:16,103 - root - INFO -> Processing game 3823...
+2026-04-09 04:43:16,499 - root - INFO -> --------------------------------------------------
+2026-04-09 04:43:16,514 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3823.json: 2202 events
+2026-04-09 04:43:23,286 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3823.parquet: 179828 rows
+2026-04-09 04:43:45,266 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10744.40ms 
+2026-04-09 04:43:45,266 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:46:41,246 - root - INFO -> Loaded tracking data for game 3823
+2026-04-09 04:46:41,309 - root - INFO -> Number of successful passes: 833
+2026-04-09 04:46:41,772 - root - INFO -> Number of passes in event_df: 991
+2026-04-09 04:46:41,772 - root - INFO -> Number of passes in tracking_df: 991
+2026-04-09 04:46:46,216 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 04:47:07,603 - root - INFO -> Processed game 3823
+2026-04-09 04:47:07,603 - root - INFO -> --------------------------------------------------
+2026-04-09 04:47:07,603 - root - INFO -> Processing game 3824...
+2026-04-09 04:47:08,148 - root - INFO -> --------------------------------------------------
+2026-04-09 04:47:08,148 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3824.json: 2234 events
+2026-04-09 04:47:14,704 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3824.parquet: 178283 rows
+2026-04-09 04:47:36,954 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10816.62ms 
+2026-04-09 04:47:36,954 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:50:29,862 - root - INFO -> Loaded tracking data for game 3824
+2026-04-09 04:50:29,927 - root - INFO -> Number of successful passes: 876
+2026-04-09 04:50:30,326 - root - INFO -> Number of passes in event_df: 1018
+2026-04-09 04:50:30,326 - root - INFO -> Number of passes in tracking_df: 1018
+2026-04-09 04:50:34,324 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 04:51:08,564 - root - INFO -> Processed game 3824
+2026-04-09 04:51:08,564 - root - INFO -> --------------------------------------------------
+2026-04-09 04:51:08,564 - root - INFO -> Processing game 3825...
+2026-04-09 04:51:09,055 - root - INFO -> --------------------------------------------------
+2026-04-09 04:51:09,055 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3825.json: 2161 events
+2026-04-09 04:51:15,715 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3825.parquet: 177697 rows
+2026-04-09 04:51:40,858 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 13879.03ms 
+2026-04-09 04:51:40,858 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:54:25,375 - root - INFO -> Loaded tracking data for game 3825
+2026-04-09 04:54:25,471 - root - INFO -> Number of successful passes: 817
+2026-04-09 04:54:25,966 - root - INFO -> Number of passes in event_df: 990
+2026-04-09 04:54:25,966 - root - INFO -> Number of passes in tracking_df: 990
+2026-04-09 04:54:25,966 - root - ERROR -> Error occurred while processing possession event ID: 6404593.0, Error: index 0 is out of bounds for axis 0 with size 0
+2026-04-09 04:54:26,123 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6404896.0, Error: 'home_10_x'
+2026-04-09 04:54:30,879 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 2
+2026-04-09 04:54:50,441 - root - INFO -> Processed game 3825
+2026-04-09 04:54:50,441 - root - INFO -> --------------------------------------------------
+2026-04-09 04:54:50,441 - root - INFO -> Processing game 3826...
+2026-04-09 04:54:50,888 - root - INFO -> --------------------------------------------------
+2026-04-09 04:54:50,888 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3826.json: 2240 events
+2026-04-09 04:54:57,392 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3826.parquet: 183602 rows
+2026-04-09 04:55:20,213 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11096.83ms 
+2026-04-09 04:55:20,213 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 04:58:19,208 - root - INFO -> Loaded tracking data for game 3826
+2026-04-09 04:58:19,269 - root - INFO -> Number of successful passes: 887
+2026-04-09 04:58:19,661 - root - INFO -> Number of passes in event_df: 1027
+2026-04-09 04:58:19,661 - root - INFO -> Number of passes in tracking_df: 1027
+2026-04-09 04:58:20,343 - root - ERROR -> Player 8031.0 not found in home team for possession event ID: 6407362.0
+2026-04-09 04:58:20,343 - root - ERROR -> Error occurred while processing possession event ID: 6407362.0, Error: single positional indexer is out-of-bounds
+2026-04-09 04:58:23,470 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6407444.0, Error: 'home_21_x'
+2026-04-09 04:58:23,803 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 2
+2026-04-09 04:58:46,990 - root - INFO -> Processed game 3826
+2026-04-09 04:58:46,990 - root - INFO -> --------------------------------------------------
+2026-04-09 04:58:46,990 - root - INFO -> Processing game 3827...
+2026-04-09 04:58:47,434 - root - INFO -> --------------------------------------------------
+2026-04-09 04:58:47,434 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3827.json: 2231 events
+2026-04-09 04:58:54,946 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3827.parquet: 176460 rows
+2026-04-09 04:59:32,957 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 25190.70ms 
+2026-04-09 04:59:32,957 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:02:18,581 - root - INFO -> Loaded tracking data for game 3827
+2026-04-09 05:02:18,647 - root - INFO -> Number of successful passes: 876
+2026-04-09 05:02:18,988 - root - INFO -> Number of passes in event_df: 1018
+2026-04-09 05:02:18,988 - root - INFO -> Number of passes in tracking_df: 1018
+2026-04-09 05:02:23,074 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 05:02:45,630 - root - INFO -> Processed game 3827
+2026-04-09 05:02:45,630 - root - INFO -> --------------------------------------------------
+2026-04-09 05:02:45,630 - root - INFO -> Processing game 3828...
+2026-04-09 05:02:46,040 - root - INFO -> --------------------------------------------------
+2026-04-09 05:02:46,040 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3828.json: 1981 events
+2026-04-09 05:02:53,053 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3828.parquet: 191573 rows
+2026-04-09 05:03:16,456 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11314.45ms 
+2026-04-09 05:03:16,456 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:06:23,908 - root - INFO -> Loaded tracking data for game 3828
+2026-04-09 05:06:23,979 - root - INFO -> Number of successful passes: 648
+2026-04-09 05:06:24,465 - root - INFO -> Number of passes in event_df: 848
+2026-04-09 05:06:24,465 - root - INFO -> Number of passes in tracking_df: 848
+2026-04-09 05:06:27,826 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 05:06:42,857 - root - INFO -> Processed game 3828
+2026-04-09 05:06:42,857 - root - INFO -> --------------------------------------------------
+2026-04-09 05:06:42,857 - root - INFO -> Processing game 3829...
+2026-04-09 05:06:43,287 - root - INFO -> --------------------------------------------------
+2026-04-09 05:06:43,287 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3829.json: 2159 events
+2026-04-09 05:06:49,851 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3829.parquet: 185337 rows
+2026-04-09 05:07:13,027 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11231.98ms 
+2026-04-09 05:07:13,027 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:10:17,718 - root - INFO -> Loaded tracking data for game 3829
+2026-04-09 05:10:17,783 - root - INFO -> Number of successful passes: 808
+2026-04-09 05:10:18,150 - root - INFO -> Number of passes in event_df: 956
+2026-04-09 05:10:18,150 - root - INFO -> Number of passes in tracking_df: 956
+2026-04-09 05:10:18,155 - root - ERROR -> Error occurred while processing possession event ID: 6414234.0, Error: index 0 is out of bounds for axis 0 with size 0
+2026-04-09 05:10:23,237 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 05:10:43,328 - root - INFO -> Processed game 3829
+2026-04-09 05:10:43,328 - root - INFO -> --------------------------------------------------
+2026-04-09 05:10:43,328 - root - INFO -> Processing game 3830...
+2026-04-09 05:10:43,711 - root - INFO -> --------------------------------------------------
+2026-04-09 05:10:43,711 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3830.json: 2118 events
+2026-04-09 05:10:50,182 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3830.parquet: 180096 rows
+2026-04-09 05:11:12,743 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11036.17ms 
+2026-04-09 05:11:12,743 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:14:10,895 - root - INFO -> Loaded tracking data for game 3830
+2026-04-09 05:14:10,964 - root - INFO -> Number of successful passes: 790
+2026-04-09 05:14:11,377 - root - INFO -> Number of passes in event_df: 969
+2026-04-09 05:14:11,378 - root - INFO -> Number of passes in tracking_df: 969
+2026-04-09 05:14:11,383 - root - ERROR -> Error occurred while processing possession event ID: 6415836.0, Error: index 0 is out of bounds for axis 0 with size 0
+2026-04-09 05:14:11,386 - root - ERROR -> Error occurred while processing possession event ID: 6415842.0, Error: index 0 is out of bounds for axis 0 with size 0
+2026-04-09 05:14:15,039 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 2
+2026-04-09 05:14:33,905 - root - INFO -> Processed game 3830
+2026-04-09 05:14:33,905 - root - INFO -> --------------------------------------------------
+2026-04-09 05:14:33,905 - root - INFO -> Processing game 3831...
+2026-04-09 05:14:34,328 - root - INFO -> --------------------------------------------------
+2026-04-09 05:14:34,328 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3831.json: 2173 events
+2026-04-09 05:14:40,473 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3831.parquet: 172550 rows
+2026-04-09 05:15:02,178 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10492.19ms 
+2026-04-09 05:15:02,178 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:17:54,540 - root - INFO -> Loaded tracking data for game 3831
+2026-04-09 05:17:54,600 - root - INFO -> Number of successful passes: 869
+2026-04-09 05:17:54,921 - root - INFO -> Number of passes in event_df: 1001
+2026-04-09 05:17:54,921 - root - INFO -> Number of passes in tracking_df: 1001
+2026-04-09 05:17:58,695 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 05:18:21,751 - root - INFO -> Processed game 3831
+2026-04-09 05:18:21,751 - root - INFO -> --------------------------------------------------
+2026-04-09 05:18:21,751 - root - INFO -> Processing game 3832...
+2026-04-09 05:18:22,129 - root - INFO -> --------------------------------------------------
+2026-04-09 05:18:22,129 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3832.json: 2068 events
+2026-04-09 05:18:28,535 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3832.parquet: 182155 rows
+2026-04-09 05:18:51,033 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10980.16ms 
+2026-04-09 05:18:51,033 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:21:53,768 - root - INFO -> Loaded tracking data for game 3832
+2026-04-09 05:21:53,831 - root - INFO -> Number of successful passes: 675
+2026-04-09 05:21:54,227 - root - INFO -> Number of passes in event_df: 885
+2026-04-09 05:21:54,227 - root - INFO -> Number of passes in tracking_df: 885
+2026-04-09 05:21:57,767 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 05:22:13,587 - root - INFO -> Processed game 3832
+2026-04-09 05:22:13,587 - root - INFO -> --------------------------------------------------
+2026-04-09 05:22:13,587 - root - INFO -> Processing game 3833...
+2026-04-09 05:22:13,993 - root - INFO -> --------------------------------------------------
+2026-04-09 05:22:13,993 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3833.json: 2030 events
+2026-04-09 05:22:20,894 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3833.parquet: 192562 rows
+2026-04-09 05:22:44,696 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11852.89ms 
+2026-04-09 05:22:44,696 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:25:53,986 - root - INFO -> Loaded tracking data for game 3833
+2026-04-09 05:25:54,051 - root - INFO -> Number of successful passes: 731
+2026-04-09 05:25:54,407 - root - INFO -> Number of passes in event_df: 887
+2026-04-09 05:25:54,407 - root - INFO -> Number of passes in tracking_df: 887
+2026-04-09 05:25:57,753 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 05:26:14,560 - root - INFO -> Processed game 3833
+2026-04-09 05:26:14,560 - root - INFO -> --------------------------------------------------
+2026-04-09 05:26:14,560 - root - INFO -> Processing game 3834...
+2026-04-09 05:26:15,016 - root - INFO -> --------------------------------------------------
+2026-04-09 05:26:15,016 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3834.json: 2304 events
+2026-04-09 05:26:22,297 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3834.parquet: 180197 rows
+2026-04-09 05:27:02,261 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 27113.05ms 
+2026-04-09 05:27:02,261 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:29:50,850 - root - INFO -> Loaded tracking data for game 3834
+2026-04-09 05:29:50,908 - root - INFO -> Number of successful passes: 916
+2026-04-09 05:29:51,319 - root - INFO -> Number of passes in event_df: 1051
+2026-04-09 05:29:51,319 - root - INFO -> Number of passes in tracking_df: 1051
+2026-04-09 05:29:55,373 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 05:30:19,751 - root - INFO -> Processed game 3834
+2026-04-09 05:30:19,753 - root - INFO -> --------------------------------------------------
+2026-04-09 05:30:19,753 - root - INFO -> Processing game 3835...
+2026-04-09 05:30:20,149 - root - INFO -> --------------------------------------------------
+2026-04-09 05:30:20,149 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3835.json: 2060 events
+2026-04-09 05:30:26,775 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3835.parquet: 183274 rows
+2026-04-09 05:30:49,858 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11311.18ms 
+2026-04-09 05:30:49,858 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:33:51,237 - root - INFO -> Loaded tracking data for game 3835
+2026-04-09 05:33:51,301 - root - INFO -> Number of successful passes: 766
+2026-04-09 05:33:51,714 - root - INFO -> Number of passes in event_df: 931
+2026-04-09 05:33:51,714 - root - INFO -> Number of passes in tracking_df: 931
+2026-04-09 05:33:52,617 - root - ERROR -> Player 8023.0 not found in away team for possession event ID: 6424876.0
+2026-04-09 05:33:52,617 - root - ERROR -> Error occurred while processing possession event ID: 6424876.0, Error: single positional indexer is out-of-bounds
+2026-04-09 05:33:55,369 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 05:34:13,832 - root - INFO -> Processed game 3835
+2026-04-09 05:34:13,832 - root - INFO -> --------------------------------------------------
+2026-04-09 05:34:13,832 - root - INFO -> Processing game 3836...
+2026-04-09 05:34:14,244 - root - INFO -> --------------------------------------------------
+2026-04-09 05:34:14,244 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3836.json: 2270 events
+2026-04-09 05:34:20,233 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3836.parquet: 174925 rows
+2026-04-09 05:34:43,306 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10733.27ms 
+2026-04-09 05:34:43,306 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:37:35,202 - root - INFO -> Loaded tracking data for game 3836
+2026-04-09 05:37:35,272 - root - INFO -> Number of successful passes: 893
+2026-04-09 05:37:35,677 - root - INFO -> Number of passes in event_df: 1057
+2026-04-09 05:37:35,677 - root - INFO -> Number of passes in tracking_df: 1057
+2026-04-09 05:37:39,818 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 05:38:03,494 - root - INFO -> Processed game 3836
+2026-04-09 05:38:03,494 - root - INFO -> --------------------------------------------------
+2026-04-09 05:38:03,494 - root - INFO -> Processing game 3837...
+2026-04-09 05:38:03,955 - root - INFO -> --------------------------------------------------
+2026-04-09 05:38:03,955 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3837.json: 2199 events
+2026-04-09 05:38:10,499 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3837.parquet: 177954 rows
+2026-04-09 05:38:46,723 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 24959.54ms 
+2026-04-09 05:38:46,723 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:41:33,278 - root - INFO -> Loaded tracking data for game 3837
+2026-04-09 05:41:33,339 - root - INFO -> Number of successful passes: 877
+2026-04-09 05:41:33,647 - root - INFO -> Number of passes in event_df: 999
+2026-04-09 05:41:33,647 - root - INFO -> Number of passes in tracking_df: 999
+2026-04-09 05:41:37,635 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 05:41:59,804 - root - INFO -> Processed game 3837
+2026-04-09 05:41:59,804 - root - INFO -> --------------------------------------------------
+2026-04-09 05:41:59,804 - root - INFO -> Processing game 3838...
+2026-04-09 05:42:00,310 - root - INFO -> --------------------------------------------------
+2026-04-09 05:42:00,310 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3838.json: 2247 events
+2026-04-09 05:42:06,912 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3838.parquet: 181696 rows
+2026-04-09 05:42:43,121 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 24722.89ms 
+2026-04-09 05:42:43,121 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:45:31,131 - root - INFO -> Loaded tracking data for game 3838
+2026-04-09 05:45:31,193 - root - INFO -> Number of successful passes: 829
+2026-04-09 05:45:31,577 - root - INFO -> Number of passes in event_df: 989
+2026-04-09 05:45:31,577 - root - INFO -> Number of passes in tracking_df: 989
+2026-04-09 05:45:34,038 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6429722.0, Error: 'home_23_x'
+2026-04-09 05:45:35,539 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 05:45:57,415 - root - INFO -> Processed game 3838
+2026-04-09 05:45:57,415 - root - INFO -> --------------------------------------------------
+2026-04-09 05:45:57,415 - root - INFO -> Processing game 3839...
+2026-04-09 05:45:57,825 - root - INFO -> --------------------------------------------------
+2026-04-09 05:45:57,825 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3839.json: 2191 events
+2026-04-09 05:46:04,055 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3839.parquet: 176369 rows
+2026-04-09 05:46:26,327 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10987.47ms 
+2026-04-09 05:46:26,327 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:49:22,772 - root - INFO -> Loaded tracking data for game 3839
+2026-04-09 05:49:22,835 - root - INFO -> Number of successful passes: 849
+2026-04-09 05:49:23,170 - root - INFO -> Number of passes in event_df: 1005
+2026-04-09 05:49:23,170 - root - INFO -> Number of passes in tracking_df: 1005
+2026-04-09 05:49:27,214 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 05:49:47,968 - root - INFO -> Processed game 3839
+2026-04-09 05:49:47,968 - root - INFO -> --------------------------------------------------
+2026-04-09 05:49:47,968 - root - INFO -> Processing game 3840...
+2026-04-09 05:49:48,365 - root - INFO -> --------------------------------------------------
+2026-04-09 05:49:48,365 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3840.json: 1991 events
+2026-04-09 05:49:54,480 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3840.parquet: 186294 rows
+2026-04-09 05:50:17,832 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11684.82ms 
+2026-04-09 05:50:17,832 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:53:22,671 - root - INFO -> Loaded tracking data for game 3840
+2026-04-09 05:53:22,732 - root - INFO -> Number of successful passes: 695
+2026-04-09 05:53:23,105 - root - INFO -> Number of passes in event_df: 892
+2026-04-09 05:53:23,105 - root - INFO -> Number of passes in tracking_df: 892
+2026-04-09 05:53:24,897 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6449222.0, Error: 'away_12_x'
+2026-04-09 05:53:26,732 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 05:53:43,522 - root - INFO -> Processed game 3840
+2026-04-09 05:53:43,522 - root - INFO -> --------------------------------------------------
+2026-04-09 05:53:43,522 - root - INFO -> Processing game 3841...
+2026-04-09 05:53:43,933 - root - INFO -> --------------------------------------------------
+2026-04-09 05:53:43,933 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3841.json: 2100 events
+2026-04-09 05:53:50,836 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3841.parquet: 190545 rows
+2026-04-09 05:54:14,498 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11556.90ms 
+2026-04-09 05:54:14,498 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 05:57:22,394 - root - INFO -> Loaded tracking data for game 3841
+2026-04-09 05:57:22,459 - root - INFO -> Number of successful passes: 744
+2026-04-09 05:57:22,839 - root - INFO -> Number of passes in event_df: 873
+2026-04-09 05:57:22,839 - root - INFO -> Number of passes in tracking_df: 873
+2026-04-09 05:57:22,844 - root - ERROR -> Error occurred while processing possession event ID: 6451289.0, Error: index 0 is out of bounds for axis 0 with size 0
+2026-04-09 05:57:26,348 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 05:57:44,875 - root - INFO -> Processed game 3841
+2026-04-09 05:57:44,875 - root - INFO -> --------------------------------------------------
+2026-04-09 05:57:44,875 - root - INFO -> Processing game 3842...
+2026-04-09 05:57:45,305 - root - INFO -> --------------------------------------------------
+2026-04-09 05:57:45,305 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3842.json: 2305 events
+2026-04-09 05:57:52,450 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3842.parquet: 174220 rows
+2026-04-09 05:58:31,697 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 26977.97ms 
+2026-04-09 05:58:31,697 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:01:15,169 - root - INFO -> Loaded tracking data for game 3842
+2026-04-09 06:01:15,238 - root - INFO -> Number of successful passes: 924
+2026-04-09 06:01:15,690 - root - INFO -> Number of passes in event_df: 1070
+2026-04-09 06:01:15,690 - root - INFO -> Number of passes in tracking_df: 1070
+2026-04-09 06:01:19,969 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 06:01:45,056 - root - INFO -> Processed game 3842
+2026-04-09 06:01:45,056 - root - INFO -> --------------------------------------------------
+2026-04-09 06:01:45,056 - root - INFO -> Processing game 3843...
+2026-04-09 06:01:45,474 - root - INFO -> --------------------------------------------------
+2026-04-09 06:01:45,474 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3843.json: 2187 events
+2026-04-09 06:01:52,249 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3843.parquet: 185457 rows
+2026-04-09 06:02:15,568 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11495.86ms 
+2026-04-09 06:02:15,568 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:05:19,154 - root - INFO -> Loaded tracking data for game 3843
+2026-04-09 06:05:19,217 - root - INFO -> Number of successful passes: 843
+2026-04-09 06:05:19,648 - root - INFO -> Number of passes in event_df: 1032
+2026-04-09 06:05:19,648 - root - INFO -> Number of passes in tracking_df: 1032
+2026-04-09 06:05:23,788 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 06:05:45,172 - root - INFO -> Processed game 3843
+2026-04-09 06:05:45,172 - root - INFO -> --------------------------------------------------
+2026-04-09 06:05:45,172 - root - INFO -> Processing game 3844...
+2026-04-09 06:05:45,489 - root - INFO -> --------------------------------------------------
+2026-04-09 06:05:45,489 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3844.json: 1789 events
+2026-04-09 06:05:51,790 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3844.parquet: 185096 rows
+2026-04-09 06:06:14,684 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11165.36ms 
+2026-04-09 06:06:14,684 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:09:15,260 - root - INFO -> Loaded tracking data for game 3844
+2026-04-09 06:09:15,322 - root - INFO -> Number of successful passes: 547
+2026-04-09 06:09:15,720 - root - INFO -> Number of passes in event_df: 727
+2026-04-09 06:09:15,720 - root - INFO -> Number of passes in tracking_df: 727
+2026-04-09 06:09:15,727 - root - ERROR -> Error occurred while processing possession event ID: 6471228.0, Error: index 0 is out of bounds for axis 0 with size 0
+2026-04-09 06:09:18,521 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 06:09:31,355 - root - INFO -> Processed game 3844
+2026-04-09 06:09:31,355 - root - INFO -> --------------------------------------------------
+2026-04-09 06:09:31,355 - root - INFO -> Processing game 3845...
+2026-04-09 06:09:31,876 - root - INFO -> --------------------------------------------------
+2026-04-09 06:09:31,876 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3845.json: 2576 events
+2026-04-09 06:09:37,798 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3845.parquet: 178131 rows
+2026-04-09 06:10:01,125 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11790.19ms 
+2026-04-09 06:10:01,125 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:13:00,853 - root - INFO -> Loaded tracking data for game 3845
+2026-04-09 06:13:00,917 - root - INFO -> Number of successful passes: 1101
+2026-04-09 06:13:01,248 - root - INFO -> Number of passes in event_df: 1241
+2026-04-09 06:13:01,248 - root - INFO -> Number of passes in tracking_df: 1241
+2026-04-09 06:13:06,306 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 06:13:36,446 - root - INFO -> Processed game 3845
+2026-04-09 06:13:36,446 - root - INFO -> --------------------------------------------------
+2026-04-09 06:13:36,446 - root - INFO -> Processing game 3846...
+2026-04-09 06:13:36,856 - root - INFO -> --------------------------------------------------
+2026-04-09 06:13:36,856 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3846.json: 1977 events
+2026-04-09 06:13:43,108 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3846.parquet: 177972 rows
+2026-04-09 06:14:05,540 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10673.59ms 
+2026-04-09 06:14:05,555 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:17:04,190 - root - INFO -> Loaded tracking data for game 3846
+2026-04-09 06:17:04,251 - root - INFO -> Number of successful passes: 804
+2026-04-09 06:17:04,633 - root - INFO -> Number of passes in event_df: 945
+2026-04-09 06:17:04,633 - root - INFO -> Number of passes in tracking_df: 945
+2026-04-09 06:17:07,926 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6475229.0, Error: 'away_26_x'
+2026-04-09 06:17:08,450 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 06:17:27,901 - root - INFO -> Processed game 3846
+2026-04-09 06:17:27,901 - root - INFO -> --------------------------------------------------
+2026-04-09 06:17:27,901 - root - INFO -> Processing game 3847...
+2026-04-09 06:17:28,364 - root - INFO -> --------------------------------------------------
+2026-04-09 06:17:28,364 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3847.json: 2200 events
+2026-04-09 06:17:35,224 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3847.parquet: 192318 rows
+2026-04-09 06:18:12,948 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 25525.51ms 
+2026-04-09 06:18:12,948 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:21:15,021 - root - INFO -> Loaded tracking data for game 3847
+2026-04-09 06:21:15,091 - root - INFO -> Number of successful passes: 786
+2026-04-09 06:21:15,454 - root - INFO -> Number of passes in event_df: 955
+2026-04-09 06:21:15,455 - root - INFO -> Number of passes in tracking_df: 955
+2026-04-09 06:21:16,891 - root - ERROR -> Player 13968.0 not found in away team for possession event ID: 6475177.0
+2026-04-09 06:21:16,891 - root - ERROR -> Error occurred while processing possession event ID: 6475177.0, Error: single positional indexer is out-of-bounds
+2026-04-09 06:21:17,019 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6475652.0, Error: 'away_17_x'
+2026-04-09 06:21:19,299 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 2
+2026-04-09 06:21:40,200 - root - INFO -> Processed game 3847
+2026-04-09 06:21:40,200 - root - INFO -> --------------------------------------------------
+2026-04-09 06:21:40,200 - root - INFO -> Processing game 3848...
+2026-04-09 06:21:40,612 - root - INFO -> --------------------------------------------------
+2026-04-09 06:21:40,612 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3848.json: 2202 events
+2026-04-09 06:21:47,433 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3848.parquet: 176286 rows
+2026-04-09 06:22:12,251 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 12475.62ms 
+2026-04-09 06:22:12,251 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:25:08,806 - root - INFO -> Loaded tracking data for game 3848
+2026-04-09 06:25:08,884 - root - INFO -> Number of successful passes: 792
+2026-04-09 06:25:09,346 - root - INFO -> Number of passes in event_df: 1008
+2026-04-09 06:25:09,346 - root - INFO -> Number of passes in tracking_df: 1008
+2026-04-09 06:25:13,268 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 06:25:34,716 - root - INFO -> Processed game 3848
+2026-04-09 06:25:34,716 - root - INFO -> --------------------------------------------------
+2026-04-09 06:25:34,716 - root - INFO -> Processing game 3849...
+2026-04-09 06:25:35,191 - root - INFO -> --------------------------------------------------
+2026-04-09 06:25:35,191 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3849.json: 2270 events
+2026-04-09 06:25:42,149 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3849.parquet: 188713 rows
+2026-04-09 06:26:05,841 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11530.27ms 
+2026-04-09 06:26:05,841 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:29:17,981 - root - INFO -> Loaded tracking data for game 3849
+2026-04-09 06:29:18,051 - root - INFO -> Number of successful passes: 827
+2026-04-09 06:29:18,466 - root - INFO -> Number of passes in event_df: 976
+2026-04-09 06:29:18,466 - root - INFO -> Number of passes in tracking_df: 976
+2026-04-09 06:29:21,623 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6493181.0, Error: 'home_6_x'
+2026-04-09 06:29:22,268 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 06:29:43,844 - root - INFO -> Processed game 3849
+2026-04-09 06:29:43,844 - root - INFO -> --------------------------------------------------
+2026-04-09 06:29:43,844 - root - INFO -> Processing game 3850...
+2026-04-09 06:29:44,392 - root - INFO -> --------------------------------------------------
+2026-04-09 06:29:44,392 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3850.json: 2554 events
+2026-04-09 06:29:50,803 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3850.parquet: 178219 rows
+2026-04-09 06:30:15,015 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 12542.59ms 
+2026-04-09 06:30:15,015 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:33:12,943 - root - INFO -> Loaded tracking data for game 3850
+2026-04-09 06:33:13,008 - root - INFO -> Number of successful passes: 1081
+2026-04-09 06:33:13,393 - root - INFO -> Number of passes in event_df: 1203
+2026-04-09 06:33:13,393 - root - INFO -> Number of passes in tracking_df: 1203
+2026-04-09 06:33:18,272 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 06:33:48,813 - root - INFO -> Processed game 3850
+2026-04-09 06:33:48,813 - root - INFO -> --------------------------------------------------
+2026-04-09 06:33:48,813 - root - INFO -> Processing game 3851...
+2026-04-09 06:33:49,189 - root - INFO -> --------------------------------------------------
+2026-04-09 06:33:49,189 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3851.json: 1856 events
+2026-04-09 06:33:57,092 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3851.parquet: 186680 rows
+2026-04-09 06:34:23,681 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 12927.00ms 
+2026-04-09 06:34:23,681 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:37:32,741 - root - INFO -> Loaded tracking data for game 3851
+2026-04-09 06:37:32,806 - root - INFO -> Number of successful passes: 534
+2026-04-09 06:37:33,145 - root - INFO -> Number of passes in event_df: 752
+2026-04-09 06:37:33,145 - root - INFO -> Number of passes in tracking_df: 752
+2026-04-09 06:37:36,105 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 06:37:47,889 - root - INFO -> Processed game 3851
+2026-04-09 06:37:47,891 - root - INFO -> --------------------------------------------------
+2026-04-09 06:37:47,891 - root - INFO -> Processing game 3852...
+2026-04-09 06:37:48,398 - root - INFO -> --------------------------------------------------
+2026-04-09 06:37:48,398 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3852.json: 2539 events
+2026-04-09 06:37:54,845 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3852.parquet: 176079 rows
+2026-04-09 06:38:16,789 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10652.34ms 
+2026-04-09 06:38:16,789 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:41:18,765 - root - INFO -> Loaded tracking data for game 3852
+2026-04-09 06:41:18,822 - root - INFO -> Number of successful passes: 1047
+2026-04-09 06:41:19,306 - root - INFO -> Number of passes in event_df: 1199
+2026-04-09 06:41:19,306 - root - INFO -> Number of passes in tracking_df: 1199
+2026-04-09 06:41:19,313 - root - ERROR -> Error occurred while processing possession event ID: 6494344.0, Error: index 0 is out of bounds for axis 0 with size 0
+2026-04-09 06:41:24,057 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 06:41:54,382 - root - INFO -> Processed game 3852
+2026-04-09 06:41:54,382 - root - INFO -> --------------------------------------------------
+2026-04-09 06:41:54,382 - root - INFO -> Processing game 3853...
+2026-04-09 06:41:54,827 - root - INFO -> --------------------------------------------------
+2026-04-09 06:41:54,827 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3853.json: 2051 events
+2026-04-09 06:42:01,589 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3853.parquet: 177986 rows
+2026-04-09 06:42:23,822 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10681.11ms 
+2026-04-09 06:42:23,822 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:45:20,648 - root - INFO -> Loaded tracking data for game 3853
+2026-04-09 06:45:20,712 - root - INFO -> Number of successful passes: 789
+2026-04-09 06:45:21,058 - root - INFO -> Number of passes in event_df: 930
+2026-04-09 06:45:21,058 - root - INFO -> Number of passes in tracking_df: 930
+2026-04-09 06:45:21,064 - root - ERROR -> Error occurred while processing possession event ID: 6494340.0, Error: index 0 is out of bounds for axis 0 with size 0
+2026-04-09 06:45:23,638 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6496911.0, Error: 'home_16_x'
+2026-04-09 06:45:24,895 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 2
+2026-04-09 06:45:57,613 - root - INFO -> Processed game 3853
+2026-04-09 06:45:57,613 - root - INFO -> --------------------------------------------------
+2026-04-09 06:45:57,613 - root - INFO -> Processing game 3854...
+2026-04-09 06:45:58,124 - root - INFO -> --------------------------------------------------
+2026-04-09 06:45:58,126 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3854.json: 2665 events
+2026-04-09 06:46:04,405 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3854.parquet: 176599 rows
+2026-04-09 06:46:29,763 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 13942.17ms 
+2026-04-09 06:46:29,763 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:49:17,161 - root - INFO -> Loaded tracking data for game 3854
+2026-04-09 06:49:17,231 - root - INFO -> Number of successful passes: 1138
+2026-04-09 06:49:17,598 - root - INFO -> Number of passes in event_df: 1289
+2026-04-09 06:49:17,598 - root - INFO -> Number of passes in tracking_df: 1289
+2026-04-09 06:49:23,249 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 06:49:57,809 - root - INFO -> Processed game 3854
+2026-04-09 06:49:57,809 - root - INFO -> --------------------------------------------------
+2026-04-09 06:49:57,809 - root - INFO -> Processing game 3855...
+2026-04-09 06:49:58,370 - root - INFO -> --------------------------------------------------
+2026-04-09 06:49:58,370 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3855.json: 2417 events
+2026-04-09 06:50:05,051 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3855.parquet: 181664 rows
+2026-04-09 06:50:27,732 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11316.72ms 
+2026-04-09 06:50:27,747 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:53:26,307 - root - INFO -> Loaded tracking data for game 3855
+2026-04-09 06:53:26,382 - root - INFO -> Number of successful passes: 929
+2026-04-09 06:53:26,715 - root - INFO -> Number of passes in event_df: 1079
+2026-04-09 06:53:26,731 - root - INFO -> Number of passes in tracking_df: 1079
+2026-04-09 06:53:27,625 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6498899.0, Error: 'away_17_x'
+2026-04-09 06:53:31,109 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 06:53:55,683 - root - INFO -> Processed game 3855
+2026-04-09 06:53:55,683 - root - INFO -> --------------------------------------------------
+2026-04-09 06:53:55,683 - root - INFO -> Processing game 3856...
+2026-04-09 06:53:56,110 - root - INFO -> --------------------------------------------------
+2026-04-09 06:53:56,110 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3856.json: 2113 events
+2026-04-09 06:54:02,584 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3856.parquet: 193815 rows
+2026-04-09 06:54:26,661 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11745.81ms 
+2026-04-09 06:54:26,661 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 06:57:38,151 - root - INFO -> Loaded tracking data for game 3856
+2026-04-09 06:57:38,214 - root - INFO -> Number of successful passes: 723
+2026-04-09 06:57:38,590 - root - INFO -> Number of passes in event_df: 905
+2026-04-09 06:57:38,590 - root - INFO -> Number of passes in tracking_df: 905
+2026-04-09 06:57:42,219 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 06:58:00,067 - root - INFO -> Processed game 3856
+2026-04-09 06:58:00,067 - root - INFO -> --------------------------------------------------
+2026-04-09 06:58:00,067 - root - INFO -> Processing game 3857...
+2026-04-09 06:58:00,485 - root - INFO -> --------------------------------------------------
+2026-04-09 06:58:00,485 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3857.json: 2118 events
+2026-04-09 06:58:07,037 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3857.parquet: 178122 rows
+2026-04-09 06:58:29,636 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 10918.62ms 
+2026-04-09 06:58:29,636 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 07:01:30,571 - root - INFO -> Loaded tracking data for game 3857
+2026-04-09 07:01:30,643 - root - INFO -> Number of successful passes: 816
+2026-04-09 07:01:31,022 - root - INFO -> Number of passes in event_df: 962
+2026-04-09 07:01:31,022 - root - INFO -> Number of passes in tracking_df: 962
+2026-04-09 07:01:34,814 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 07:01:55,901 - root - INFO -> Processed game 3857
+2026-04-09 07:01:55,901 - root - INFO -> --------------------------------------------------
+2026-04-09 07:01:55,901 - root - INFO -> Processing game 3858...
+2026-04-09 07:01:56,336 - root - INFO -> --------------------------------------------------
+2026-04-09 07:01:56,336 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3858.json: 2003 events
+2026-04-09 07:02:02,856 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3858.parquet: 185665 rows
+2026-04-09 07:02:26,210 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 11453.77ms 
+2026-04-09 07:02:26,210 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 07:05:28,424 - root - INFO -> Loaded tracking data for game 3858
+2026-04-09 07:05:28,475 - root - INFO -> Number of successful passes: 720
+2026-04-09 07:05:28,842 - root - INFO -> Number of passes in event_df: 915
+2026-04-09 07:05:28,842 - root - INFO -> Number of passes in tracking_df: 915
+2026-04-09 07:05:31,672 - root - ERROR -> Error occurred while calculating pressure for possession event ID: 6507624.0, Error: 'home_3_x'
+2026-04-09 07:05:32,448 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 1
+2026-04-09 07:06:02,465 - root - INFO -> Processed game 3858
+2026-04-09 07:06:02,465 - root - INFO -> --------------------------------------------------
+2026-04-09 07:06:02,465 - root - INFO -> Processing game 3859...
+2026-04-09 07:06:02,869 - root - INFO -> --------------------------------------------------
+2026-04-09 07:06:02,869 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\eventdata\3859.json: 2045 events
+2026-04-09 07:06:09,614 - root - INFO -> Loaded C:\Users\g4a4b\OneDrive - University of Twente\SportsAnalyticsProject\pff_data\trackingdata_parquet\3859.parquet: 187004 rows
+2026-04-09 07:06:37,089 - kloppy.infra.serializers.tracking.pff - INFO -> Loading metadata took: 15164.64ms 
+2026-04-09 07:06:37,089 - kloppy.infra.serializers.tracking.pff - INFO -> Loading data took: 0.00us 
+2026-04-09 07:09:33,051 - root - INFO -> Loaded tracking data for game 3859
+2026-04-09 07:09:33,115 - root - INFO -> Number of successful passes: 742
+2026-04-09 07:09:33,455 - root - INFO -> Number of passes in event_df: 878
+2026-04-09 07:09:33,455 - root - INFO -> Number of passes in tracking_df: 878
+2026-04-09 07:09:36,869 - root - INFO -> Number of rows in passes_df where pressure_on_receiver is NaN: 0
+2026-04-09 07:10:08,231 - root - INFO -> Processed game 3859
+2026-04-09 07:10:08,231 - root - INFO -> Processing complete for all games.

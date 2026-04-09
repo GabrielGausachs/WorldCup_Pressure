@@ -1,6 +1,9 @@
 import json
 import numpy as np
 import pandas as pd
+from Utils.logger import get_logger
+
+logger = get_logger()
 
 def get_passes(event_df, tracking_df):
     # Filter the event DataFrame to include only rows where:
@@ -53,7 +56,7 @@ def get_passes(event_df, tracking_df):
     # if possessionEvents.passOutcomeType is "C", then is_success is True, otherwise False
     passes_clean['is_success'] = passes_clean['possessionEvents.passOutcomeType'].apply(lambda x: True if x == "C" else False)
     
-    print(f"Number of successful passes: {passes_clean['is_success'].sum()}")
+    logger.info(f"Number of successful passes: {passes_clean['is_success'].sum()}")
 
     return passes_clean, tracking_passes_clean
 
@@ -85,11 +88,11 @@ def pressure_on_receiver(passes_df, tracking_passes_df, game):
                 if home_team:
                     player_info = game.home_players[game.home_players["id"].astype(int) == int(target_player_id)]
                     if player_info.empty:
-                        print(f"Player {target_player_id} not found in home team for possession event ID: {possession_event_id}")
+                        logger.error(f"Player {target_player_id} not found in home team for possession event ID: {possession_event_id}")
                 else:
                     player_info = game.away_players[game.away_players["id"].astype(int) == int(target_player_id)]
                     if player_info.empty:
-                        print(f"Player {target_player_id} not found in away team for possession event ID: {possession_event_id}")
+                        logger.error(f"Player {target_player_id} not found in away team for possession event ID: {possession_event_id}")
                 player_id = player_info["id"].iloc[0]
 
                 # Get the pressure on the target player at the start frame
@@ -98,17 +101,17 @@ def pressure_on_receiver(passes_df, tracking_passes_df, game):
                     pressure = game.tracking_data.get_pressure_on_player(index=idx, column_id=game.player_id_to_column_id(player_id), pitch_size=game.pitch_dimensions)
 
                 except Exception as e:
-                    print(f"Error occurred while calculating pressure for possession event ID: {possession_event_id}, Error: {e}")
+                    logger.error(f"Error occurred while calculating pressure for possession event ID: {possession_event_id}, Error: {e}")
                     continue
 
                 # Add pressure in the passes_df for the corresponding possession_event_id
                 passes_df.loc[(passes_df['possessionEventId'] == possession_event_id), 'pressure_on_receiver'] = pressure / 100  # Convert to percentage
         except Exception as e:
-            print(f"Error occurred while processing possession event ID: {possession_event_id}, Error: {e}")
+            logger.error(f"Error occurred while processing possession event ID: {possession_event_id}, Error: {e}")
             continue
     
     # print number of rows in passes_df where pressure_on_receiver is still NaN
-    print(f"Number of rows in passes_df where pressure_on_receiver is NaN: {passes_df['pressure_on_receiver'].isna().sum()}")
+    logger.info(f"Number of rows in passes_df where pressure_on_receiver is NaN: {passes_df['pressure_on_receiver'].isna().sum()}")
     return passes_df
 
 

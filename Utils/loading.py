@@ -3,6 +3,9 @@ import json
 import pandas as pd
 from kloppy import pff
 from databallpy import get_game_from_kloppy
+from Utils.logger import get_logger
+
+logger = get_logger()
 
 def load_events_from_json(file_path):
     with open(file_path, 'r') as f:
@@ -11,10 +14,10 @@ def load_events_from_json(file_path):
 
 def load_files(event_path, tracking_path):
     event_df = load_events_from_json(event_path )
-    print("-" * 50)
-    print(f"Loaded {event_path}: {event_df.shape[0]} events")
+    logger.info("-" * 50)
+    logger.info(f"Loaded {event_path}: {event_df.shape[0]} events")
     tracking_df = pd.read_parquet(tracking_path)
-    print(f"Loaded {tracking_path}: {tracking_df.shape[0]} rows")
+    logger.info(f"Loaded {tracking_path}: {tracking_df.shape[0]} rows")
     return event_df, tracking_df
 
 def load_game_from_pff(base_path, game_id):
@@ -30,5 +33,5 @@ def load_game_from_pff(base_path, game_id):
     game.tracking_data.filter_tracking_data(column_ids="ball", filter_type="savitzky_golay", window_length=25, polyorder=2)
     game.tracking_data.add_velocity(game.get_column_ids() + ["ball"], allow_overwrite=True)
     game.tracking_data.add_acceleration(game.get_column_ids() + ["ball"], allow_overwrite=True)
-    print(f"Loaded tracking data for game {game_id}")
+    logger.info(f"Loaded tracking data for game {game_id}")
     return game

@@ -2,6 +2,10 @@ import os
 import json
 import bz2
 import pandas as pd
+import numpy as np
+from Utils.logger import get_logger
+
+logger = get_logger()
 
 def normalize_players(players):
     if not isinstance(players, list):
@@ -68,9 +72,8 @@ def clean_tracking_data(base_path):
         input_file = os.path.join(tracking_path, file)
         output_file = os.path.join(clean_path, file.replace(".jsonl.bz2", "_clean.jsonl.bz2"))
         
-        print("-" * 50)
-
-        print(f"\nProcessing {file}...")
+        logger.info("-" * 50)
+        logger.info(f"\nProcessing {file}...")
 
         # --- LOAD FILE INTO DATAFRAME ---
         with bz2.open(input_file, "rt") as f:
@@ -83,11 +86,11 @@ def clean_tracking_data(base_path):
             tracking_df.duplicated(subset=['frameNum'], keep=False)
         ]
 
-        print(f"Duplicate rows: {duplicate_frames.shape[0]}")
-        print(f"Duplicate ratio: {duplicate_frames.shape[0] / tracking_df.shape[0]:.4f}")
+        logger.info(f"Duplicate rows: {duplicate_frames.shape[0]}")
+        logger.info(f"Duplicate ratio: {duplicate_frames.shape[0] / tracking_df.shape[0]:.4f}")
 
         if duplicate_frames.empty:
-            print("✅ No duplicates → saving directly")
+            logger.info("✅ No duplicates → saving directly")
             tracking_df_clean = tracking_df.copy()
 
         else:
@@ -112,11 +115,11 @@ def clean_tracking_data(base_path):
 
             # --- CLEAN ---
             if len(problematic_frames) == 0:
-                print("✅ All duplicates identical → safe drop")
+                logger.info("✅ All duplicates identical → safe drop")
                 tracking_df_clean = tracking_df.drop_duplicates(subset=["frameNum"]).copy()
 
             else:
-                print(f"⚠️ Problematic frames: {len(problematic_frames)}")
+                logger.info(f"⚠️ Problematic frames: {len(problematic_frames)}")
 
                 mask_safe = tracking_df["frameNum"].isin(identical_frames)
                 mask_problem = tracking_df["frameNum"].isin(problematic_frames)
@@ -156,12 +159,12 @@ def clean_tracking_data(base_path):
             for row in tracking_df_clean.to_dict(orient="records"):
                 f.write(json.dumps(row) + "\n")
 
-        print(f"✅ Saved: {output_file}")
+        logger.info(f"✅ Saved: {output_file}")
 
 def bz2_to_parquet(base_path):
     for file in os.listdir(os.path.join(base_path, "trackingdata_clean")):
-        print("-" * 50)
-        print(f"\nProcessing {file}...")
+        logger.info("-" * 50)
+        logger.info(f"\nProcessing {file}...")
         # Load tracking data
         tracking_file = os.path.join(base_path, "trackingdata_clean", file)
         df = pd.read_json(tracking_file, lines=True, compression='bz2')
@@ -170,4 +173,4 @@ def bz2_to_parquet(base_path):
         os.makedirs(os.path.join(base_path, "trackingdata_parquet"), exist_ok=True)
         parquet_file = os.path.join(base_path, "trackingdata_parquet", file.replace("_clean.jsonl.bz2", ".parquet"))
         df.to_parquet(parquet_file, index=False)
-        print(f"✅ Converted to parquet: {parquet_file}")
+        logger.info(f"✅ Converted to parquet: {parquet_file}")
