@@ -2,8 +2,115 @@ import json
 import numpy as np
 import pandas as pd
 from Utils.logger import get_logger
+import os
+from Utils.loading import load_events_from_json
 
 logger = get_logger()
+
+
+def compute_minutes_one_game(event_df, roster_file):
+
+    # Load roster
+    with open(roster_file, 'r') as f:
+        roster = json.load(f)
+
+    # Total match time (seconds)
+    total_match_time = event_df[
+        event_df["gameEvents.gameEventType"] == "END"
+    ]["gameEvents.startGameClock"].max()
+
+    # Init players
+    players = {}
+    for p in roster:
+        pid = int(p["player"]["id"])
+        players[pid] = {
+            "minutes": 0,
+            "start_time": 0 if p["started"] else None
+        }
+
+    # Substitutions
+    subs = event_df[event_df['gameEvents.gameEventType'] == "SUB"].copy()
+    subs = subs.sort_values("gameEvents.startGameClock")
+
+    for _, row in subs.iterrows():
+        t = row["gameEvents.startGameClock"]
+
+        off = row["gameEvents.playerOffId"]
+        on = row["gameEvents.playerOnId"]
+
+        if pd.notna(off):
+            off = int(off)
+        if pd.notna(on):
+            on = int(on)
+
+        # Close interval
+        if off in players and players[off]["start_time"] is not None:
+            players[off]["minutes"] += t - players[off]["start_time"]
+            players[off]["start_time"] = None
+
+        # Start interval
+        if on in players:
+            players[on]["start_time"] = t
+
+    # Close remaining players
+    for pid in players:
+        if players[pid]["start_time"] is not None:
+            players[pid]["minutes"] += total_match_time - players[pid]["start_time"]
+
+    # Build df
+    game_id = event_df["gameId"].iloc[0]
+
+    rows = []
+    for pid, data in players.items():
+        rows.append({
+            "gameId": game_id,
+            "possessionEvents.targetPlayerId": float(pid),
+            "minutes_played": data["minutes"] / 60,
+            "total_match_minutes": total_match_time / 60
+        })
+
+    return pd.DataFrame(rows)
+
+
+
+def compute_minutes_all_games(BASE_PATH):
+    events_dir = os.path.join(BASE_PATH, "eventdata")
+    rosters_dir = os.path.join(BASE_PATH, "rosters")
+
+    all_minutes = []
+
+    # Loop through all event files
+    for file in os.listdir(events_dir):
+        if not file.endswith(".json"):
+            continue
+
+        game_id = file.replace(".json", "")
+
+        event_path = os.path.join(events_dir, file)
+        roster_path = os.path.join(rosters_dir, f"{game_id}.json")
+
+        # Skip if roster file missing
+        if not os.path.exists(roster_path):
+            print(f"Missing roster for game {game_id}, skipping...")
+            continue
+
+        # Load event data
+        event_df = load_events_from_json(event_path)
+
+        # Compute minutes
+        try:
+            df_game = compute_minutes_one_game(event_df, roster_path)
+            all_minutes.append(df_game)
+        except Exception as e:
+            print(f"Error processing game {game_id}: {e}")
+            continue
+
+    # Concatenate all games
+    minutes_df = pd.concat(all_minutes, ignore_index=True)
+
+    return minutes_df
+
+
 
 def get_passes(event_df, tracking_df):
     # Filter the event DataFrame to include only rows where:
@@ -127,6 +234,24 @@ def build_global_player_mapping(roster_files):
             mapping[float(p['player']['id'])] = p['positionGroupType']
     
     return mapping
+
+
+
+def map_position(group):
+    if group == "GK":
+        return "Goalkeeper"
+
+    elif group in ["RCB", "LCB", "MCB", "LB", "RB", "LWB", "RWB"]:
+        return "Defender"
+
+    elif group in ["CM", "DM", "AM", "RM", "LM"]:
+        return "Midfielder"
+
+    elif group in ["CF", "LW", "RW"]:
+        return "Forward"
+
+    else:
+        return "Other"
 
 
 

@@ -1,6 +1,5 @@
 from scipy.stats import pointbiserialr
 import os
-from Utils.feature_extraction import player_position_mapping
 
 def stats_passes(passes_df):
     # Total passes
@@ -32,12 +31,41 @@ def stats_passes(passes_df):
     r, p_value = pointbiserialr(success_binary, pressure)
     print(f"Point Biserial Correlation: R = {r:.2f}, p = {p_value:.6f}")
 
-def target_pressure_players(dict_events, passes_df, base_path):
-    for game_id in dict_events.keys():
-        passes_df = player_position_mapping(os.path.join(base_path,"rosters",f"{game_id}.json"), passes_df)
-    target_player_pass_counts = passes_df.groupby('possessionEvents.targetPlayerName').agg(
+def target_pressure_players(passes_df):
+    minutes_per_player = passes_df[
+    ["gameId", "possessionEvents.targetPlayerName", "minutes_played"]
+    ].drop_duplicates()
+
+    minutes_per_player = minutes_per_player.groupby(
+        "possessionEvents.targetPlayerName"
+    )["minutes_played"].sum().reset_index(name="total_minutes")
+
+    # Aggregate stats per player
+    player_stats = passes_df.groupby('possessionEvents.targetPlayerName').agg(
     pass_count=('possessionEventId', 'count'),
     avg_pressure=('pressure_on_receiver', 'mean'),
-    position = ('positionGroupType', 'first')
+    position=('positionGroupType', 'first'),
+    n_games=('gameId', 'nunique')
     ).reset_index()
-    return target_player_pass_counts
+
+    player_stats = player_stats.merge(
+    minutes_per_player,
+    on="possessionEvents.targetPlayerName",
+    how="left"
+    )
+
+    # Filter players with at least 3 games and an average of more than 60 minutes per game
+    player_stats = player_stats[
+    (player_stats["n_games"] >= 3) &
+    (player_stats["total_minutes"] / player_stats["n_games"] > 60)
+    ].copy()
+
+    # Calculate targeted passes per 90 minutes
+    player_stats["targeted_passes_per90"] = (
+        player_stats["pass_count"] / player_stats["total_minutes"]
+    ) * 90
+
+    player_stats = player_stats.dropna(subset=["avg_pressure", "targeted_passes_per90"])
+
+    return player_stats
+    
