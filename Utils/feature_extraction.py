@@ -116,12 +116,17 @@ def pressure_on_receiver(passes_df, tracking_passes_df, game):
 
 
 
-def player_position_mapping(rosters_file, passes_df):
-    with open(rosters_file, 'r') as f:
-        rosters_data = json.load(f)
-    nickname_to_position = {p['player']['nickname']: p['positionGroupType'] for p in rosters_data}
-    passes_df['positionGroupType'] = passes_df['possessionEvents.targetPlayerName'].map(nickname_to_position)
-    return passes_df
+def build_global_player_mapping(roster_files):
+    mapping = {}
+    
+    for file in roster_files:
+        with open(file, 'r') as f:
+            rosters_data = json.load(f)
+        
+        for p in rosters_data:
+            mapping[float(p['player']['id'])] = p['positionGroupType']
+    
+    return mapping
 
 
 

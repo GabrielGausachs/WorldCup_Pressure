@@ -46,10 +46,6 @@ if __name__ == "__main__":
         # Get pressure on receiver
         passes_df = pressure_on_receiver(passes_df, tracking_passes_df, game)
 
-        # Get player position mapping
-        roster_file = os.path.join(BASE_PATH, "rosters", f"{game_id}.json")
-        passes_df = player_position_mapping(roster_file, passes_df)
-
         # Retain or lose ball after pass
         passes_df = retain_lose_after_pass(passes_df, tracking_passes_df, tracking_df)
 
