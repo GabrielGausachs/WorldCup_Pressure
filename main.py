@@ -1,15 +1,9 @@
 import os
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import json
-from kloppy import pff
-from databallpy import get_game_from_kloppy
 from Utils.config import BASE_PATH
 from Utils import logger
 from Utils.loading import load_files, load_game_from_pff
 from Utils.helpers import clean_tracking_data, bz2_to_parquet
-from Utils.feature_extraction import get_passes, pressure_on_receiver, player_position_mapping, retain_lose_after_pass, what_leads
+from Utils.feature_extraction import get_passes, pressure_on_receiver, retain_lose_after_pass, what_leads
 
 if __name__ == "__main__":
 

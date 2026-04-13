@@ -1,6 +1,8 @@
+import ast
 import os
 import json
 import pandas as pd
+from Utils.config import BASE_PATH
 from kloppy import pff
 from databallpy import get_game_from_kloppy
 from Utils.logger import get_logger
@@ -35,3 +37,27 @@ def load_game_from_pff(base_path, game_id):
     game.tracking_data.add_acceleration(game.get_column_ids() + ["ball"], allow_overwrite=True)
     logger.info(f"Loaded tracking data for game {game_id}")
     return game
+
+def load_passes(base_path):
+    # Load passes and tracking_passes data
+    passes_files = [f for f in os.listdir(os.path.join(base_path, "dataset_wc_passes")) if f.endswith('.csv') and "tracking" not in f]
+    tracking_passes_files = [f for f in os.listdir(os.path.join(base_path, "dataset_wc_passes")) if f.endswith('.csv') and "tracking" in f]
+    print(f"Found {len(passes_files)} passes files and {len(tracking_passes_files)} tracking passes files.")
+
+    # concatenate all passes and tracking_passes data into single DataFrames
+    passes_df = pd.concat([pd.read_csv(os.path.join(base_path, "dataset_wc_passes", f)) for f in passes_files], ignore_index=True)
+    tracking_passes_df = pd.concat([pd.read_csv(os.path.join(base_path, "dataset_wc_passes", f)) for f in tracking_passes_files], ignore_index=True)
+    print(f"Combined passes DataFrame shape: {passes_df.shape}")
+    print(f"Combined tracking passes DataFrame shape: {tracking_passes_df.shape}")
+
+    # Extract game_id from the game_event column in tracking_passes_df
+    tracking_passes_df["game_event_dict"] = tracking_passes_df["game_event"].apply(
+        lambda x: ast.literal_eval(x) if isinstance(x, str) else None
+    )
+    tracking_passes_df["game_id"] = tracking_passes_df["game_event_dict"].apply(
+        lambda x: x.get("game_id") if isinstance(x, dict) else None
+    )
+    # Drop the game_event_dict column as it is no longer needed
+    tracking_passes_df.drop(columns=["game_event_dict"], inplace=True)
+
+    return passes_df, tracking_passes_df

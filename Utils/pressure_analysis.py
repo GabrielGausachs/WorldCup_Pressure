@@ -45,6 +45,7 @@ def target_pressure_players(passes_df):
     pass_count=('possessionEventId', 'count'),
     avg_pressure=('pressure_on_receiver', 'mean'),
     position=('positionGroupType', 'first'),
+    position_group=('positionGroup', 'first'),
     n_games=('gameId', 'nunique')
     ).reset_index()
 
