@@ -127,6 +127,20 @@ def player_stats(passes_df):
         player_stats["shot_or_cross_after_count"] / player_stats["successful_pass_count"]
     ) * 100
 
+    percentile_columns = [
+        "possessions_lost_per_100_successful_passes",
+        "possessions_retained_per_100_successful_passes",
+        "net_possession_ratio",
+        "attacking_third_entry_per_100_successful_passes",
+        "box_entry_per_100_successful_passes",
+        "shot_or_cross_after_per_100_successful_passes",
+    ]
+
+    for column in percentile_columns:
+        player_stats[f"{column}_percentile_in_position_group"] = player_stats.groupby(
+            "position_group"
+        )[column].transform(lambda series: series.rank(pct=True, method="average") * 100)
+
     player_stats = player_stats.dropna(
         subset=[
             "avg_pressure",
