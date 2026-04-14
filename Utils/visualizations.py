@@ -44,19 +44,19 @@ def avg_pressure_targeted_players(player_stats, highlight_players=None):
             label=pos
         )
 
+    if highlight_players is not None:
+        highlight_df = player_stats[player_stats[player_name_col].isin(highlight_players)].copy()
 
-    highlight_df = player_stats[player_stats[player_name_col].isin(highlight_players)].copy()
-
-    plt.scatter(
-        highlight_df["targeted_passes_per90"],
-        highlight_df["avg_pressure"],
-        c=highlight_df["position_group"].map(colors),
-        s=60,
-        alpha=1,
-        edgecolors="black",
-        linewidth=1,
-        zorder=10
-    )
+        plt.scatter(
+            highlight_df["targeted_passes_per90"],
+            highlight_df["avg_pressure"],
+            c=highlight_df["position_group"].map(colors),
+            s=60,
+            alpha=1,
+            edgecolors="black",
+            linewidth=1,
+            zorder=10
+        )
 
 
     # 3. Style (only left + bottom axis)
@@ -148,18 +148,19 @@ def scatter_pressure_successful_passes(player_stats, highlight_players=None):
         )
 
     # 2. Highlighted players (opaque)
-    highlight_df = player_stats[player_stats[player_name_col].isin(highlight_players)].copy()
+    if highlight_players is not None:
+        highlight_df = player_stats[player_stats[player_name_col].isin(highlight_players)].copy()
 
-    plt.scatter(
-        highlight_df["successful_passes_per90"],
-        highlight_df["avg_pressure_successful"],
-        c=highlight_df["position_group"].map(colors),
-        s=60,
-        alpha=1,
-        edgecolors="black",
-        linewidth=1,
-        zorder=10
-    )
+        plt.scatter(
+            highlight_df["successful_passes_per90"],
+            highlight_df["avg_pressure_successful"],
+            c=highlight_df["position_group"].map(colors),
+            s=60,
+            alpha=1,
+            edgecolors="black",
+            linewidth=1,
+            zorder=10
+        )
 
     # 3. Style (only left + bottom axis)
     ax = plt.gca()
@@ -205,3 +206,4 @@ def scatter_pressure_successful_passes(player_stats, highlight_players=None):
 
     plt.grid(False)
     plt.show()
+
