@@ -66,7 +66,26 @@ def target_pressure_players(passes_df):
         player_stats["pass_count"] / player_stats["total_minutes"]
     ) * 90
 
-    player_stats = player_stats.dropna(subset=["avg_pressure", "targeted_passes_per90"])
+    # Calculate stats for successful passes only
+    successful_passes = passes_df[passes_df['possessionEvents.passOutcomeType'] == "C"]
+    
+    successful_stats = successful_passes.groupby('possessionEvents.targetPlayerName').agg(
+        successful_pass_count=('possessionEventId', 'count'),
+        avg_pressure_successful=('pressure_on_receiver', 'mean')
+    ).reset_index()
+    
+    player_stats = player_stats.merge(
+        successful_stats,
+        on="possessionEvents.targetPlayerName",
+        how="left"
+    )
+    
+    # Calculate successful targeted passes per 90 minutes
+    player_stats["successful_passes_per90"] = (
+        player_stats["successful_pass_count"] / player_stats["total_minutes"]
+    ) * 90
+
+    player_stats = player_stats.dropna(subset=["avg_pressure", "targeted_passes_per90", "avg_pressure_successful", "successful_passes_per90"])
 
     return player_stats
     
