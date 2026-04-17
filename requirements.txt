@@ -1,0 +1,7 @@
+databallpy==0.7.3
+kloppy==3.18.0
+matplotlib==3.10.8
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+seaborn==0.13.2
