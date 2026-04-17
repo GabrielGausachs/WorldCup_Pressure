@@ -3,6 +3,24 @@ from itertools import combinations
 import pandas as pd
 import os
 
+
+def _normalize_team_name(team_name):
+    if pd.isna(team_name):
+        return None
+
+    normalized = str(team_name).strip().lower()
+    alias_map = {
+        "brazil": "brasil",
+        "england": "england",
+        "netherlands": "netherlands",
+        "argentina": "argentina",
+        "morocco": "morocco",
+        "france": "france",
+        "croatia": "croatia",
+        "portugal": "portugal",
+    }
+    return alias_map.get(normalized, normalized)
+
 def stats_passes(passes_df):
     # Total passes
     total_passes = passes_df.shape[0]
@@ -155,12 +173,13 @@ def player_stats(passes_df):
 
 def identify_similar_players_with_divergent_net_ratio(
     player_stats_df,
-    max_avg_pressure_diff=0.05,
-    max_successful_passes_per90_diff=0.5,
-    min_net_possession_ratio_diff=20.0,
+    max_avg_pressure_diff=0.07,
+    max_successful_passes_diff=15.0,
+    min_net_possession_ratio_diff=8.0,
     position_groups=None,
+    national_teams=None,
     top_n=10,
-):
+    ):
     required_columns = [
         "possessionEvents.targetPlayerName",
         "position_group",
@@ -173,6 +192,20 @@ def identify_similar_players_with_divergent_net_ratio(
         raise ValueError(f"player_stats_df is missing required columns: {missing_columns}")
 
     comparison_df = player_stats_df.copy()
+
+    if national_teams is not None:
+        if "team_name" not in comparison_df.columns:
+            raise ValueError("player_stats_df is missing required column: team_name")
+
+        allowed_teams = {
+            _normalize_team_name(team_name)
+            for team_name in national_teams
+            if team_name is not None
+        }
+        comparison_df = comparison_df[
+            comparison_df["team_name"].apply(_normalize_team_name).isin(allowed_teams)
+        ].copy()
+
     if position_groups is not None:
         comparison_df = comparison_df[comparison_df["position_group"].isin(position_groups)].copy()
 
@@ -194,7 +227,7 @@ def identify_similar_players_with_divergent_net_ratio(
 
             if (
                 avg_pressure_diff <= max_avg_pressure_diff
-                and successful_passes_diff <= max_successful_passes_per90_diff
+                and successful_passes_diff <= max_successful_passes_diff
                 and net_possession_ratio_diff >= min_net_possession_ratio_diff
             ):
                 candidate_rows.append({

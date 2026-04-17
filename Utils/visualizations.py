@@ -38,11 +38,12 @@ def avg_pressure_targeted_players(player_stats, highlight_players=None):
             group["targeted_passes_per90"],
             group["avg_pressure"],
             color=colors.get(pos, "gray"),
-            alpha=0.4,
+            alpha=0.25,
             s=60,
             edgecolors="black",
-            linewidth=0.5,
-            label=pos
+            linewidth=0.3,
+            label=pos,
+            zorder=3
         )
 
     if highlight_players is not None:
@@ -86,7 +87,7 @@ def avg_pressure_targeted_players(player_stats, highlight_players=None):
     frame.set_edgecolor("none")
     frame.set_alpha(0)
 
-    plt.title("Who Teams Still Target Under Pressure", fontsize=15, fontweight="bold", pad=15)
+    plt.title("Targeted Passes Analysis", fontsize=15, fontweight="bold", pad=15)
 
     plt.suptitle(
         "Receiver pressure intensity and targeted passes per 90min by positional group",
@@ -95,8 +96,8 @@ def avg_pressure_targeted_players(player_stats, highlight_players=None):
     )
 
     ax = plt.gca()
-    ax.set_xlabel("Targeted Passes per 90", fontsize=12, labelpad=10)
-    ax.set_ylabel("Average Pressure per Pass", fontsize=12, labelpad=10)
+    ax.set_xlabel("Targeted Passes per 90 min", fontsize=12, labelpad=10)
+    ax.set_ylabel("Avg Pressure per Targeted Pass", fontsize=12, labelpad=10)
 
     # Set y-axis limits based on max value from both pressure columns
     max_pressure = max(player_stats["avg_pressure"].max(), player_stats["avg_pressure_successful"].max())
@@ -141,11 +142,12 @@ def scatter_pressure_successful_passes(player_stats, highlight_players=None):
             group["successful_passes_per90"],
             group["avg_pressure_successful"],
             color=colors.get(pos, "gray"),
-            alpha=0.4,
+            alpha=0.25,
             s=60,
             edgecolors="black",
-            linewidth=0.5,
-            label=pos
+            linewidth=0.3,
+            label=pos,
+            zorder=3
         )
 
     # 2. Highlighted players (opaque)
@@ -189,17 +191,17 @@ def scatter_pressure_successful_passes(player_stats, highlight_players=None):
     frame.set_edgecolor("none")
     frame.set_alpha(0)
 
-    plt.title("Successful Passes Under Pressure", fontsize=15, fontweight="bold", pad=15)
+    plt.title("Successful Targeted Passes Analysis", fontsize=15, fontweight="bold", pad=15)
 
     plt.suptitle(
-        "Receiver pressure intensity and successful passes per 90min by positional group",
+        "Receiver pressure intensity and successful target passes per 90min by positional group",
         fontsize=10,
         y=0.9,
     )
 
     ax = plt.gca()
-    ax.set_xlabel("Successful Passes per 90", fontsize=12, labelpad=10)
-    ax.set_ylabel("Average Pressure per Successful Pass", fontsize=12, labelpad=10)
+    ax.set_xlabel("Successful Targeted Passes per 90 min", fontsize=12, labelpad=10)
+    ax.set_ylabel("Avg Pressure per Successful Targeted Pass", fontsize=12, labelpad=10)
 
     # Set y-axis limits based on max value from both pressure columns
     max_pressure = max(player_stats["avg_pressure"].max(), player_stats["avg_pressure_successful"].max())
@@ -221,13 +223,12 @@ def plot_net_ratio(player_stats_df, highlight_players=None):
         "ytick.labelsize": 10
     })
     player_col = "possessionEvents.targetPlayerName"
-    if "colors" not in globals():
-        colors = {
-            "Goalkeeper": "orange",
-            "Defender": "blue",
-            "Midfielder": "green",
-            "Forward": "red"
-        }
+    colors = {
+        "Goalkeeper": "orange",
+        "Defender": "blue",
+        "Midfielder": "green",
+        "Forward": "red"
+    }
 
     # Exclude goalkeeper panel
     order = ["Defender", "Midfielder", "Forward"]
@@ -236,7 +237,7 @@ def plot_net_ratio(player_stats_df, highlight_players=None):
         player_stats_df["position_group"].isin(order)
     ] .dropna(subset=["position_group", "net_possession_ratio"]).copy()
 
-    if "highlight_players" in globals() and highlight_players is not None:
+    if highlight_players is not None:
         plot_df["is_highlight_player"] = plot_df[player_col].isin(highlight_players)
     else:
         plot_df["is_highlight_player"] = False
@@ -287,19 +288,6 @@ def plot_net_ratio(player_stats_df, highlight_players=None):
                 zorder=10
             )
 
-            for _, row in highlighted.iterrows():
-                ax.annotate(
-                    row[player_col],
-                    xy=(row["net_possession_ratio"], 0),
-                    xytext=(0, 8),
-                    textcoords="offset points",
-                    ha="center",
-                    va="bottom",
-                    fontsize=8,
-                    color="black",
-                    zorder=11
-                )
-
         ax.axvline(0, color="black", linestyle="--", linewidth=0.8, alpha=0.5, zorder=1)
         ax.set_ylabel("")
         ax.set_yticks([])
@@ -312,16 +300,9 @@ def plot_net_ratio(player_stats_df, highlight_players=None):
     axes[-1].set_xlabel("Net Possession Ratio per 100 Successful Passes (Retained - Lost)")
 
     fig.suptitle(
-        "Ball Security by Receiver Under Pressure",
+        "Net Possession Ratio per 100 Successful Passes Distribution",
         fontsize=15,
         fontweight="bold"
-    )
-    fig.text(
-        0.5,
-        0.955,
-        "Selected players highlighted per position; players below p5 successful-pass volume removed",
-        ha="center",
-        fontsize=10
     )
 
     plt.show()
