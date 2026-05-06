@@ -1,8 +1,8 @@
-# TITLE TO BE CHANGED
+# From Theory to Pitch: Measuring Defensive Pressure in the 2022 World Cup (Repository)
 
 This repository contains the implementation of the analysis presented in the article:
 
-**“TITLE TO BE CHANGED”**  
+**“From Theory to Pitch: Measuring Defensive Pressure in the 2022 World Cup”**  
 (Link to the article: *[insert your link here]*)
 
 ---
