@@ -2,8 +2,7 @@
 
 This repository contains the implementation of the analysis presented in the article:
 
-**“From Theory to Pitch: Measuring Defensive Pressure in the 2022 World Cup”**  
-(Link to the article: *[insert your link here]*)
+**[“From Theory to Pitch: Measuring Defensive Pressure in the 2022 World Cup”](https://open.substack.com/pub/gabrielgausachs/p/from-theory-to-pitch-measuring-defensive?r=884tdi&utm_campaign=post&utm_medium=web)**
 
 ---
 
